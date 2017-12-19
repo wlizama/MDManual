@@ -54,4 +54,8 @@ Para usar el instalador de laravel, navegamos a la carpeta donde queremos tener 
 
 El instalador creará una nueva carpeta llamada _“mi-proyecto”_ y descargará todo el código necesario para un proyecto Laravel.
 
-Si tiene PHP instalado localmente y desea utilizar el servidor de desarrollo incorporado de PHP para servir su aplicación, puede usar el comando serve Artisan. Este comando iniciará un servidor de desarrollo en ``http://localhost:8000``
+Si tiene PHP instalado localmente y desea utilizar el servidor de desarrollo incorporado de PHP para servir su aplicación, puede usar el comando ``serve`` Artisan. Este comando iniciará un servidor de desarrollo en ``http://localhost:8000``
+
+```sh
+    php artisan serve
+```
