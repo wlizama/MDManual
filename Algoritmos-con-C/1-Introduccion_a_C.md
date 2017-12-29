@@ -112,3 +112,23 @@ b) En el lenguaje de programación de C no existen los valores booleanos, por lo 
 + Los operadores lógicos o booleanos denotan una relación entre dos valores.
 
 + Los operadores lógicos o booleanos tienen el mismo nivel de prioridad.
+
+
+## Entrada y Salida de datos
+La salida de datos estándar tiene 3 aspectos importantes:
+
+**1.** La salida por defecto es de la pantalla.
+
+**2.** Puede ser redireccionado.
+
+**3.** Cuando es redireccionado se utiliza la función printf.
+
+La entrada de datos estándar tiene 3 aspectos importantes:
+
+**1.** La entra es por defecto en el teclado.
+
+**2.** Puede ser redireccionado.
+
+**3.** Cuando es redireccionado se utiliza la función scanf.
+
+![image](https://raw.githubusercontent.com/wlizama/MDManual/master/assets/images/codigo_formato_salida_C.png "Codigo formato de salidas en C")
