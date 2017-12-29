@@ -1,5 +1,4 @@
 # Migrations
-
 Las migraciones son como el control de versiones para su base de datos, lo que le permite a su equipo modificar y compartir fácilmente el esquema de la base de datos de la aplicación. Las migraciones suelen combinarse con el generador de esquemas de Laravel para crear fácilmente el esquema de la base de datos de su aplicación.
 
 
@@ -27,8 +26,6 @@ Una clase _Migration_ contiene dos métodos: ``up`` y ``down``. El método ``up`
 **Ejm.**
 
 ```php
-
-  <?php
 
   use Illuminate\Support\Facades\Schema;
   use Illuminate\Database\Schema\Blueprint;
