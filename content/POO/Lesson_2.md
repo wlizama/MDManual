@@ -50,3 +50,8 @@ La pregunta que hago es ¿Cuales son los comportamientos que tienen todos los ve
 6. Parabrisas Vehículo
 
 y podría listar el comportamiento del vehículo, ahora para que ustedes puedan ejercitar lo aprendido, pueden realizar abstracciones de objetos, incluyendo sus características y el comportamiento.
+
+---
+
+[:arrow_backward: Abstracción](https://github.com/wlizama/MDManual/blob/master/content/POO/Lesson_3.md) | [:book: Indice POO](https://github.com/wlizama/MDManual/tree/master/content/POO) | [:arrow_forward: Encapsulamiento](https://github.com/wlizama/MDManual/blob/master/content/POO/Lesson_3.md)
+|--- | --- | --- |

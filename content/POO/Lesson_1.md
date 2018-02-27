@@ -52,3 +52,8 @@ _**2. Concurrencia**_
 _**3. Persistencia.**_
 
 Si falta cualquiera de  los **elementos fundamentales**, el modelo **NO** es programación orientado a objetos.
+
+---
+
+[:book: Indice POO](https://github.com/wlizama/MDManual/tree/master/content/POO) | [:arrow_forward: Abstracción](https://github.com/wlizama/MDManual/blob/master/content/POO/Lesson_2.md)
+--- | ---
