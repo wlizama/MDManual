@@ -53,5 +53,5 @@ y podría listar el comportamiento del vehículo, ahora para que ustedes puedan 
 
 ---
 
-[:arrow_backward: Abstracción](https://github.com/wlizama/MDManual/blob/master/content/POO/Lesson_3.md) | [:book: Indice POO](https://github.com/wlizama/MDManual/tree/master/content/POO) | [:arrow_forward: Encapsulamiento](https://github.com/wlizama/MDManual/blob/master/content/POO/Lesson_3.md)
+[:arrow_backward: Abstracción](https://github.com/wlizama/MDManual/blob/master/content/POO/Lesson_2.md) | [:book: Indice POO](https://github.com/wlizama/MDManual/tree/master/content/POO) | [Encapsulamiento :arrow_forward:](https://github.com/wlizama/MDManual/blob/master/content/POO/Lesson_3.md)
 |--- | --- | --- |
