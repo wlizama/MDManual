@@ -23,5 +23,7 @@ Una de las razones por la cuál es útil hacerlo modular es debido a que podemos
 
 No está de más mencionar que en algunos lenguajes orientados a objetos no existe el concepto de módulo, siendo la clase la única unidad de descomposición.
 
+---
+
 [:arrow_backward: Encapsulamiento](https://github.com/wlizama/MDManual/blob/master/content/POO/3-Encapsulamiento.md) | [:book: Indice POO](https://github.com/wlizama/MDManual/tree/master/content/POO) | [Jerarquía :arrow_forward:](https://github.com/wlizama/MDManual/blob/master/content/POO/5-Jerarquia.md)
 |--- | --- | --- |
