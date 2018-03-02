@@ -48,5 +48,5 @@ pero tambien es <**< parte de >>** una moto, un camión, etc.
 
 ---
 
-[:arrow_backward: Modularidad](https://github.com/wlizama/MDManual/blob/master/content/POO/4-Modularidad.md) | [:book: Indice POO](https://github.com/wlizama/MDManual/tree/master/content/POO) | [Tipos de datos :arrow_forward:](https://github.com/wlizama/MDManual/blob/master/content/POO/Tipos-de-datos.md)
+[:arrow_backward: Modularidad](https://github.com/wlizama/MDManual/blob/master/content/POO/4-Modularidad.md) | [:book: Indice POO](https://github.com/wlizama/MDManual/tree/master/content/POO) | [Tipos de datos :arrow_forward:](https://github.com/wlizama/MDManual/blob/master/content/POO/6-Tipos-de-datos.md)
 |--- | --- | --- |
