@@ -103,3 +103,20 @@ En este caso while tiene una condición que determina hasta cuándo se ejecutar�
    print x 
    x += 1
 ```
+
+## Dictionary comprehension - List comprehension
+Dictionary comprehension y list comprehension nos permite escribir listas o diccionarios de forma más sencilla.
+
+```py
+
+  ### Números Pares
+  pares = []
+  for num in range(1,31):
+      if num % 2 == 0:
+          pares.append(num)
+
+
+  # Esto mismo lo podemos expresar con una list comprehension
+  pares = [num for num in range(1,31) if num % 2 == 0]
+
+```
