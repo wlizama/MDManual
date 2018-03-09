@@ -143,3 +143,23 @@ _Método get "con más de 1 variable": **curl "http://httpbin.org/get?variable=1&c
 _Método post: **curl --data "numOne=1&numTwo=2" http://httpbin.org/post**_
 
 >**Nota:** Para cambiar el _User-Agent_ se hace con la bandera **``-A``** seguido del "nombre del agente", por ejemplo: **``curl -A "Agente_JoAQNjs"``**
+
+
+## Crontab
+
+Con **``crontab -e``** se programan tareas que se ejecuta según sea especificado mientras la computadora esta encendida, mientras el sistema este operando.
+
++ **``-l``** Imprime los crontabs existente, instalados en un usuario. Cada usuario del sistema tiene un crontab diferente.
+
+
+**Crontab** esta compuesto por 5 valores importantes:
+
+![image](https://raw.githubusercontent.com/wlizama/MDManual/master/assets/images/linux-crontab.png "Crontab Linux")
+
+Un Script de ejemplo sería el de guardar la fecha cada minuto, todos los dias a las 12 horas (formato 24h).
+
+```sh
+    * 12 * * * date >> /tmp/date
+```
+
+En el directorio **``/etc/cron.[frecuencia]``** existen una serie de archivos, en ellos se puede configurar algún script (o comando) que necesitemos ejecutar con "equis" frecuencia, de esta forma el Crontab queda guardado de forma permanente.
