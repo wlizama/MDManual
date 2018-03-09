@@ -74,6 +74,30 @@ Comandos básicos para terminales UNIX.
     
     + **``-c``** Esta bandera muestra todos los caracteres que tiene.
 
+
 ## Documentación disponible desde la terminal
 
 + **``man``** Manual. Este comando seguido de otro nos explica para que funciona un comando y nos dice las banderas que tiene.
+
+
+## Monitoreo de procesos
+
++ **``echo``** Imprime una cadena, _Ejm_: **``echo $PATH``**
+
++ **``which``** Muestra la ruta del programa que se esta ejecutando, _Ejm_: **``which bc``**
+
++ **``top``** Muestra un estatus del sistema (en tiempo real), se puede ordenar según CPU, MEM, etc.
+
+>_**Nota:** Cada proceso tiene su propio PID (Identificación de Proceso)_
+
+Para saber el Output del proceso ejecutado anteriormente ejecuta **``echo $?``**, si el estatus es diferente a 0 (cero) es porque el proceso no finalizó de forma correcta.
+
+
+## Standard Input, Output and error
++ **Mayor que ``>``:** Manda todas las salidas output a un archivo, sí el archivo no existe lo crea, sí existe lo reescribe añadiéndole líneas nuevas (con la información de la operación realizada).
+
++ **Menor que ``<``:** Lee un archivo y manda el output a un programa que lo leerá ese resultado como input.
+
++ **Mayor, mayor que ``>>``:** Tiene la misma función que > con la diferencia que este suma, concatena los resultados en un archivo.
+
++ **Para concatenar Outputs ``|``: Se usa ``|``, _Ejm_: **``cat file.txt | bc -q``** (esto leerá el archivo "file.txt" y luego lo ejecutará con el programa bc sin mostrar "el mensaje de bienvenida" ya que la bandera -q omite eso).
