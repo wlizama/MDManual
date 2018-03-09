@@ -14,4 +14,6 @@ Manual desarrollado con **Markdown** que documenta las pasos a seguir, sugerenci
 
 5. [ReactJS](https://github.com/wlizama/MDManual/tree/master/content/ReactJS): Conceptos básicos sobre la libreria Javascript **ReactJS**.
 
-6. [WildMix](https://github.com/wlizama/MDManual/tree/master/content/WildMix): Notas varias.
+6. [Terminal](https://github.com/wlizama/MDManual/tree/master/content/Terminal): Introducción a la terminal.
+
+7. [WildMix](https://github.com/wlizama/MDManual/tree/master/content/WildMix): Notas varias.
