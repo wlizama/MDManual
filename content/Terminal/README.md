@@ -29,3 +29,19 @@ Comandos básicos para terminales UNIX.
 + **``du -h``** Muestra el peso total de los directorios.
 
 >_Nota: Las banderas se pueden concatenar (no en todos los comandos funcionan) escribiendo despúes del guión (-) las banderas, por ejemplo: **``-lt``**_
+
+
+## Creación de directorios, mover, copiar, y renombrar archivos
+
++ **``mkdir``** Crea un nuevo directorio.
+
++ **``touch``** Abre el archivo y lo cierra, también con este comando se puede crear un archivo (incluso hasta se le puede añadir la extensión), por ejemplo: touch index.html
+
++ **``mv``** Mueve un archivo o un directorio. _Ejm_: **``mv ../photo.jpg /.``**
+
++ **``cp``** Copia un archivo o un directorio. _Ejm_: **``cp ./photo.jpg ../``**
+
+>_Nota: Colocar un * (asterisco) seguido de una extensión nos ayuda a ejecutar un comando a todos los archivos con esa extensión, puede ser, moverlos, copiarlos, borrarlos, etc._
+
+
+
