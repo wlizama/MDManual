@@ -93,11 +93,53 @@ Comandos básicos para terminales UNIX.
 Para saber el Output del proceso ejecutado anteriormente ejecuta **``echo $?``**, si el estatus es diferente a 0 (cero) es porque el proceso no finalizó de forma correcta.
 
 
-## Standard Input, Output and error
+## Standard Input, Output
 + **Mayor que ``>``:** Manda todas las salidas output a un archivo, sí el archivo no existe lo crea, sí existe lo reescribe añadiéndole líneas nuevas (con la información de la operación realizada).
 
 + **Menor que ``<``:** Lee un archivo y manda el output a un programa que lo leerá ese resultado como input.
 
 + **Mayor, mayor que ``>>``:** Tiene la misma función que > con la diferencia que este suma, concatena los resultados en un archivo.
 
-+ **Para concatenar Outputs ``|``: Se usa ``|``, _Ejm_: **``cat file.txt | bc -q``** (esto leerá el archivo "file.txt" y luego lo ejecutará con el programa bc sin mostrar "el mensaje de bienvenida" ya que la bandera -q omite eso).
++ **Para concatenar Outputs ``|``**: Se usa ``|``, _Ejm_: **``cat file.txt | bc -q``** (esto leerá el archivo "file.txt" y luego lo ejecutará con el programa bc sin mostrar "el mensaje de bienvenida" ya que la bandera -q omite eso).
+
+
+## Búsqueda de contenido en archivos, carpetas, y uso de Grep
+
++ **``grep "[texto]" [archivo o directorio]``** Busca dentro de un archivo una cadena de texto ("string"), _Ejm_: **``grep "joaqnjs" archivo.csv``**.
+
+    + **``-r``** Esta bandera sirve para buscar recursivamente.
+
+    + **``-e``** Esta bandera determina la expresión a buscar.
+
+    + **``-n``** Esta bandera nos muestra el nombre del archivo y la línea.
+
+    + **``-v``** Esta bandera busca una cadena de string y si la encuentra no la imprime, es decir, imprime las no coincidencias.
+
+    + **``^``** Indica el inicio (o desde el inicio) de línea.
+
+    + **``$``** Indica el fin (o hasta el fin) de línea.
+
++ **``find [directorio] -name "[texto]"``** Busca por nombre de archivos.
+
+    + **``-type f``** Especifica que es un archivo.
+
+    + **``-exec [comando]``** Al finalizar la busqueda ejecuta un comando. Un comando para renombrar todos los archivos que coincidan es: mv {} {}.txt \: Las llaves hacen referencia al archivo que se encontró {}.
+
++ **``split -l [cantidad de líneas] [archivo] [destino]``** Rompe un archivo en la cantidad de líneas que se determine y los resultados lo guarda en un destino.
+
+
+## Peticiones HTTP desde la terminal con CURL
+
+**``curl https://www.google.co.ve``** Trae todo el código html y lo muestra en la terminal.
+
++ **``-o``** Esta bandera guarda en un archivo (que si no existe lo crea) el output de la operación con **``curl``**, _Ejm_: **``curl -o google.html https://www.google.co.ve``**
+
++ **``-O``** Trae un archivo y lo descarga desde la web.
+
+_Método get: **curl http://httpbin.org/get?variable=1**_
+
+_Método get "con más de 1 variable": **curl "http://httpbin.org/get?variable=1&constante=10"**_
+
+_Método post: **curl --data "numOne=1&numTwo=2" http://httpbin.org/post**_
+
+>**Nota:** Para cambiar el _User-Agent_ se hace con la bandera **``-A``** seguido del "nombre del agente", por ejemplo: **``curl -A "Agente_JoAQNjs"``**
