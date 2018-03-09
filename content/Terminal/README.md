@@ -28,7 +28,7 @@ Comandos básicos para terminales UNIX.
 
 + **``du -h``** Muestra el peso total de los directorios.
 
->_Nota: Las banderas se pueden concatenar (no en todos los comandos funcionan) escribiendo despúes del guión (-) las banderas, por ejemplo: **``-lt``**_
+>_**Nota:** Las banderas se pueden concatenar (no en todos los comandos funcionan) escribiendo despúes del guión (-) las banderas, por ejemplo: **``-lt``**_
 
 
 ## Creación de directorios, mover, copiar, y renombrar archivos
@@ -41,7 +41,39 @@ Comandos básicos para terminales UNIX.
 
 + **``cp``** Copia un archivo o un directorio. _Ejm_: **``cp ./photo.jpg ../``**
 
->_Nota: Colocar un * (asterisco) seguido de una extensión nos ayuda a ejecutar un comando a todos los archivos con esa extensión, puede ser, moverlos, copiarlos, borrarlos, etc._
+>_**Nota:** Colocar un * (asterisco) seguido de una extensión nos ayuda a ejecutar un comando a todos los archivos con esa extensión, puede ser, moverlos, copiarlos, borrarlos, etc._
 
 
+## Programas desde la terminal
 
++ **``bc``** Es una calculadora básica. Para salir escribir **``quit``**.
+
+>_**Nota:** Una bandera muy práctica de **``bc``** es **``-q``**, esta nos ayuda a "omitir el mensaje de bienvenida de dicha calculadora" y nos manda directamente a ejecutar operaciones._
+
++ **``open``** Abre un archivo con el programa que el sistema crea más conveniente.
+
+>_**Nota:** A el comando **``open``** se le puede agregar una bandera para especificar el programa que deseas para abrir el archivo, esa bandera es: **``-a``** seguido del programa, Ejm: **open -a subl file.txt**_
+
++ **``mb5``** Muestra la huella digital de un archivo.
+
++ **``more``** Imprime una parte de un archivo (para leerlo desde la terminal). Para salir se presiona la letra **``q``**.
+
++ **``tail``** Imprime las últimas 10 líneas del archivo.
+
+    + **``-20``** Esta bandera muestra las últimas 20 líneas (se puede imprimir el número deseado).
+    
+    + **``-f``** Esta bandera mantiene activamente en modo "de escuchar" un archivo, esto sirve para desarrollar, muestra logs, etc.
+
++ **``cat``** Concatenación. Imprime todo el archivo, la diferencia con **``more``** es que no lo página.
+
++ **``wc``** Cuenta el número de líneas, palabras y caracteres.
+
+    + **``-l``** Esta bandera muestra todas las líneas que tiene.
+    
+    + **``-w``** Esta bandera muestra todas las palabras que tiene.
+    
+    + **``-c``** Esta bandera muestra todos los caracteres que tiene.
+
+## Documentación disponible desde la terminal
+
++ **``man``** Manual. Este comando seguido de otro nos explica para que funciona un comando y nos dice las banderas que tiene.
