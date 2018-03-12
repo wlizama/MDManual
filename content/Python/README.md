@@ -120,3 +120,40 @@ Dictionary comprehension y list comprehension nos permite escribir listas o dicc
   pares = [num for num in range(1,31) if num % 2 == 0]
 
 ```
+
+## Entorno virtual en Python
+
+En Python la comunidad comparte su código usando PyPi (_python package index_), es un repositorio para instalar módulos de la comunidad.
+
+Con ``pip install <nombre>`` se puede instalar el paquete que deseas.
+
+Podemos utilizar requirements.txt para ordenar los paquetes que requiere tu proyecto.
+
+### Ambiente virtual Python
+
+Nos permite encapsular un proyecto para poder instalar las versiones de los paquetes que se requieran sin tenerlos que instalar en todo el sistema operativo.
+
+**Crear un entorno virtual**
+
+1. Dentro de la carpeta de tu proyecto ejecutas
+
+```sh
+  virtualenv venv
+```
+
+2. Encender un entorno virtual
+
+```sh
+  source venv/bin/activate
+```
+
+3. Ver las dependencias instaladas en el entorno virtual
+
+```sh
+  pip freeze
+```
+
+4. Instalar dependencias del archivo requirements
+```sh
+  pip install -r requirements.txt
+```
