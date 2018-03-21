@@ -16,4 +16,6 @@ Manual desarrollado con **Markdown** que documenta las pasos a seguir, sugerenci
 
 6. [Terminal](https://github.com/wlizama/MDManual/tree/master/content/Terminal): Introducción a la terminal.
 
-7. [WildMix](https://github.com/wlizama/MDManual/tree/master/content/WildMix): Notas varias.
+7. [Django](https://github.com/wlizama/MDManual/tree/master/content/Django): Conceptos sobre el Framework Python **Django**.
+
+8. [WildMix](https://github.com/wlizama/MDManual/tree/master/content/WildMix): Notas varias.
