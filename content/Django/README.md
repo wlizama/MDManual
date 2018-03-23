@@ -28,3 +28,13 @@ Algunos de los sitios más concurridos de la Web aprovechan la capacidad de Djan
 **Middleware**: Cuales están activos, cada Middleware representa una lógica, unos hooks, que podemos implementar en nuestro proyecto.
 
 **Debug**: Si esta activo este modo, nos dará mas información sobre nuestros errores. Como los patrones de urls, se puede ver mas fácil como corregirlos.
+
+## Function Based View
+
+**Function Based-Views**: Vistas basadas en funciones, recibe un request, se procesa y se responde con un HttpResponse
+
+**Request**: Contiene toda la información de todo nuestro request, por ejemplo si hay parametro GET dentro del request vienen esos parametros.
+
+**HttpResponse**: Con este podemos retornar los valores dentro del request.
+
+Siempre es buena practica que tengan la carpeta templates en cada app que tenga la aplicación. Así como también un archivo urls.py en ellas, para tener el código más pequeño y modular.
