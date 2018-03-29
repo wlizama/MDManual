@@ -56,3 +56,22 @@ Es una clase en vez de una función que hereda de clase que se llama view. Imple
 **ListView**: Hace un listado de los objetos de un modelo
 
 **DeleteView**: Borra un objeto de un modelo.
+
+## Uso de templates o plantillas
+
+Los Templates son la parte de la vista si hacemos relación con el modelo MVC.
+
+En nuestro proyecto de Django debemos crear una nueva carpeta llamada templates dentro de cada aplicación, y luego en la carpeta templates debemos crear una nueva carpeta con el nombre de la aplicación para que este sea el namespace.
+
+Los Templates son plantillas que reciben datos y generan código HTML. Para los Templates debemos manejar una sintaxis un poco diferente.
+
+````
+{{ variable }}
+
+{% cycle 'odd' 'even' %}
+
+{% if conditiion %} print_something() {% endif %}
+
+{{ my_date|date:“Y-m-d” }}
+
+```
