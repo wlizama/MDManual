@@ -31,6 +31,8 @@ Algunos de los sitios más concurridos de la Web aprovechan la capacidad de Djan
 
 ## Function Based View
 
+Las vistas basadas en funciones nos permiten procesar las solicitudes del usuario a través de funciones.
+
 **Function Based-Views**: Vistas basadas en funciones, recibe un request, se procesa y se responde con un HttpResponse
 
 **Request**: Contiene toda la información de todo nuestro request, por ejemplo si hay parametro GET dentro del request vienen esos parametros.
@@ -38,3 +40,19 @@ Algunos de los sitios más concurridos de la Web aprovechan la capacidad de Djan
 **HttpResponse**: Con este podemos retornar los valores dentro del request.
 
 Siempre es buena practica que tengan la carpeta templates en cada app que tenga la aplicación. Así como también un archivo urls.py en ellas, para tener el código más pequeño y modular.
+
+## Class based-views
+
+Es una clase en vez de una función que hereda de clase que se llama view. Implementa al menos un método dispatch o GET o POST.
+
+**Dispatch**: Ejecuta ambos métodos GET y POST o puede ser que solamente tengamos uno de ellos.
+
+**Ventajas sobre las vistas basadas en funciones**: Podemos tener herencia, implementar mixing, podemos tener comportamiento por defecto.
+
+**CreateView**: Se genera con un formulario y se crea un nuevo modelo.
+
+**UpdateView**: Ya trae una instancia de un modelo y simplemente lo actualiza.
+
+**ListView**: Hace un listado de los objetos de un modelo
+
+**DeleteView**: Borra un objeto de un modelo.
