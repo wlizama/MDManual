@@ -65,7 +65,7 @@ En nuestro proyecto de Django debemos crear una nueva carpeta llamada templates 
 
 Los Templates son plantillas que reciben datos y generan código HTML. Para los Templates debemos manejar una sintaxis un poco diferente.
 
-````
+```
 {{ variable }}
 
 {% cycle 'odd' 'even' %}
@@ -75,3 +75,9 @@ Los Templates son plantillas que reciben datos y generan código HTML. Para los 
 {{ my_date|date:“Y-m-d” }}
 
 ```
+
+## Context Processor
+
+Podemos compartir variables en múltiples templates. Definimos un diccionario y esos valores se van a agregar a todos nuestros templates.
+
+_Cuando usarlos_: Si se usan muchas vistas o en todas las vistas, si es algo muy global lo mejor es que uses Context Processors.
