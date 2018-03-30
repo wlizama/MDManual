@@ -81,3 +81,11 @@ Los Templates son plantillas que reciben datos y generan código HTML. Para los 
 Podemos compartir variables en múltiples templates. Definimos un diccionario y esos valores se van a agregar a todos nuestros templates.
 
 _Cuando usarlos_: Si se usan muchas vistas o en todas las vistas, si es algo muy global lo mejor es que uses Context Processors.
+
+## Herencia e Inclusión / extend e include
+
+En los Templates tenemos dos opciones que podemos usar y que nos permiten reducir la cantidad de código que debemos escribir.
+
+**Inclusión: {% include %}** Es similar tenemos un código que se repite en muchos sitios y lo incluimos.
+
+**Herencia: {% extends % }** Significa que tenemos un template base y en base a ese podemos heredar y ocupar el código de un template especifico.
