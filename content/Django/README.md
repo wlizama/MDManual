@@ -1,6 +1,6 @@
 # Django
 
-Es un Framework Python y segun su página [https://www.djangoproject.com/](https://www.djangoproject.com/):
+Es un Framework Python y según su página [https://www.djangoproject.com/](https://www.djangoproject.com/):
 
 >_Django es un framework web Python de alto nivel que fomenta un desarrollo rápido y un diseño limpio y pragmático. Desarrollado por desarrolladores experimentados, se encarga de gran parte de las complicaciones del desarrollo web, por lo que puede concentrarse en escribir su aplicación sin necesidad de reinventar la rueda. Es gratis y de código abierto._
 
@@ -43,7 +43,7 @@ Siempre es buena practica que tengan la carpeta templates en cada app que tenga 
 
 ## Class based-views
 
-Es una clase en vez de una función que hereda de clase que se llama view. Implementa al menos un método dispatch o GET o POST.
+Es una clase en vez de una función que hereda de clase que se llama view. Implementa al menos un método dispatch o **GET** o **POST**.
 
 **Dispatch**: Ejecuta ambos métodos GET y POST o puede ser que solamente tengamos uno de ellos.
 
@@ -59,7 +59,7 @@ Es una clase en vez de una función que hereda de clase que se llama view. Imple
 
 ## Uso de templates o plantillas
 
-Los Templates son la parte de la vista si hacemos relación con el modelo MVC.
+Los Templates son la parte de la vista si hacemos relación con el modelo **MVC**.
 
 En nuestro proyecto de Django debemos crear una nueva carpeta llamada templates dentro de cada aplicación, y luego en la carpeta templates debemos crear una nueva carpeta con el nombre de la aplicación para que este sea el namespace.
 
@@ -80,7 +80,7 @@ Los Templates son plantillas que reciben datos y generan código HTML. Para los 
 
 Podemos compartir variables en múltiples templates. Definimos un diccionario y esos valores se van a agregar a todos nuestros templates.
 
-_Cuando usarlos_: Si se usan muchas vistas o en todas las vistas, si es algo muy global lo mejor es que uses Context Processors.
+_Cuando usarlos_: Si se usan muchas vistas o en todas las vistas, si es algo muy global lo mejor es que uses _Context Processors_.
 
 ## Herencia e Inclusión / extend e include
 
