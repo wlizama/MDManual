@@ -14,4 +14,6 @@
 
 7. Iniciar Servidor: ``python manage.py runserver``
 
+8. Crear aplicaciones: ``python manage.py startapp <app_name>``
+
 ![image](https://raw.githubusercontent.com/wlizama/MDManual/master/assets/images/django-project-installed.png "Django project installed")
