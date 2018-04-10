@@ -89,3 +89,11 @@ En los Templates tenemos dos opciones que podemos usar y que nos permiten reduci
 **Inclusión: {% include %}** Es similar tenemos un código que se repite en muchos sitios y lo incluimos.
 
 **Herencia: {% extends % }** Significa que tenemos un template base y en base a ese podemos heredar y ocupar el código de un template especifico.
+
+## Comandos
+
+_``./manage.py makemigrations``_ detecta cambios en los modelos y construye una migración
+
+_``./manage.py migrate``_ ejecutar migraciones
+
+_``./manage.py shell``_ consola iterativa del proyecto
