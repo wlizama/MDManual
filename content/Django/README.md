@@ -90,6 +90,9 @@ En los Templates tenemos dos opciones que podemos usar y que nos permiten reduci
 
 **Herencia: {% extends % }** Significa que tenemos un template base y en base a ese podemos heredar y ocupar el código de un template especifico.
 
+## Glosario de filtros con el ORM de Django
+Tenemos a nuestra dispocision de una gran variedad de fitros, que pueden aplicarse a los **filter**, **get** y **exclude**, se detalla sobre ellos [aqui](https://github.com/wlizama/MDManual/blob/master/content/Django/2-Glosario-de-filtros.md)
+
 ## Comandos
 
 _``./manage.py makemigrations``_ detecta cambios en los modelos y construye una migración
