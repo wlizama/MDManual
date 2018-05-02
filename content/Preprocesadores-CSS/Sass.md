@@ -74,3 +74,48 @@ Suponiendo que tenemos un archivo ``_button.scss`` y lo queremos importar a ``ma
   }
 
 ```
+
+## Anidaciones
+
+Sass te permitirá anidar tus selectores CSS de una manera que siga la misma jerarquía visual de tu HTML. Tenga en cuenta que las reglas excesivamente anidadas resultarán en CSS sobrecargado que podría ser difícil de mantener y generalmente se considera una mala práctica.
+
+**.Scss**
+
+```scss
+  nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li { display: inline-block; }
+
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+  }
+
+```
+
+**Output .css**
+
+```css
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  nav a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+```
