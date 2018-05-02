@@ -127,7 +127,6 @@ Algunas cosas en CSS son un poco tediosas de escribir, especialmente con CSS3 y 
 **.Scss**
 
 ```scss
-
   @mixin border-radius($radius) {
     -webkit-border-radius: $radius;
        -moz-border-radius: $radius;
@@ -146,5 +145,33 @@ Algunas cosas en CSS son un poco tediosas de escribir, especialmente con CSS3 y 
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     border-radius: 10px;
+  }
+```
+
+### Variable Scope and Content Blocks
+
+Una de las características que tienen los mixins es la directiva ``@content``. Esta nos permite incluir un bloque de contenido dentro de un mixin.
+
+**.Scss**
+
+```scss
+  $color: white;
+  @mixin colors($color: blue) {
+    background-color: $color;
+    @content;
+    border-color: $color;
+  }
+  .colors {
+    @include colors { color: $color; }
+  }
+```
+
+**.css**
+
+```css
+  .colors {
+    background-color: blue;
+    color: white;
+    border-color: blue;
   }
 ```
