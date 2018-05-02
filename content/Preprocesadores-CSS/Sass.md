@@ -119,3 +119,32 @@ Sass te permitirá anidar tus selectores CSS de una manera que siga la misma jer
     text-decoration: none;
   }
 ```
+
+## Mixins
+
+Algunas cosas en CSS son un poco tediosas de escribir, especialmente con CSS3 y los muchos prefijos de proveedor que existen. Un mixin le permite crear grupos de declaraciones CSS que desea reutilizar en su sitio. Incluso puede pasar valores para hacer su mixin más flexible.
+
+**.Scss**
+
+```scss
+
+  @mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+  }
+
+  .box { @include border-radius(10px); }
+```
+
+**.css**
+
+```css
+  .box {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+  }
+```
