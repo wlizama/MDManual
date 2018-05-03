@@ -237,3 +237,24 @@ Esta es una de las características más útiles de Sass. El uso de **@extend** 
     border-color: yellow;
   }
 ```
+
+## Funciones
+
+_Sass_ define algunas funciones útiles que se llaman usando la sintaxis normal de la función CSS:
+
+**.Scss**
+
+```scss
+  p {
+    color: hsl(0, 100%, 50%);
+  }
+```
+
+**css**
+
+```csss
+  p {
+  color: #ff0000; }
+```
+
+Consulte esta (página)[https://sass-lang.com/documentation/Sass/Script/Functions.html] para obtener una lista completa de las funciones disponibles.
