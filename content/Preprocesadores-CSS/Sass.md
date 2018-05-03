@@ -175,3 +175,65 @@ Una de las características que tienen los mixins es la directiva ``@content``. 
     border-color: blue;
   }
 ```
+
+## Extend
+
+Esta es una de las características más útiles de Sass. El uso de **@extend** le permite compartir un conjunto de propiedades CSS de un selector a otro. Ayuda a mantener tu Sass muy seco. Es un tipo especial de clase que solo se imprime cuando se extiende, y puede ayudar a mantener su CSS compilado ordenado y limpio.
+
+**.Scss**
+
+```scss
+  // This CSS won't print because %equal-heights is never extended.
+  %equal-heights {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  // This CSS will print because %message-shared is extended.
+  %message-shared {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+  }
+
+  .message {
+    @extend %message-shared;
+  }
+
+  .success {
+    @extend %message-shared;
+    border-color: green;
+  }
+
+  .error {
+    @extend %message-shared;
+    border-color: red;
+  }
+
+  .warning {
+    @extend %message-shared;
+    border-color: yellow;
+  }
+```
+
+**.css**
+
+```css
+  .message, .success, .error, .warning {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    color: #333;
+  }
+
+  .success {
+    border-color: green;
+  }
+
+  .error {
+    border-color: red;
+  }
+
+  .warning {
+    border-color: yellow;
+  }
+```
