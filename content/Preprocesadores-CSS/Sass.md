@@ -252,7 +252,7 @@ _Sass_ define algunas funciones útiles que se llaman usando la sintaxis normal 
 
 **Output .css**
 
-```csss
+```css
   p {
   color: #ff0000; }
 ```
@@ -275,7 +275,7 @@ La directiva ``@each`` tiene la forma ``@each $var in <list or map>`` donde ``$v
 
 **Output .css**
 
-```scss
+```css
   .puma-icon {
     background-image: url('/images/puma.png'); }
   .sea-slug-icon {
@@ -284,4 +284,27 @@ La directiva ``@each`` tiene la forma ``@each $var in <list or map>`` donde ``$v
     background-image: url('/images/egret.png'); }
   .salamander-icon {
     background-image: url('/images/salamander.png'); }
+```
+
+## @for
+
+La diferencia de  ``@for`` con ``@each`` es que para cada repetición se usa una variable contador para ajustar la salida. ``@for`` se puede escribir de 2 formas ``@for $var from <start> through <end>`` y ``@for $var from <start> to <end>``. Cuando ``<start>`` es mayor que ``<end>``, el contador disminuirá en lugar de incrementarse.
+
+**.Scss**
+
+```scss
+  @for $i from 1 through 3 {
+    .item-#{$i} { width: 2em * $i; }
+  }
+```
+
+**Output .css**
+
+```css
+  .item-1 {
+    width: 2em; }
+  .item-2 {
+    width: 4em; }
+  .item-3 {
+    width: 6em; }
 ```
