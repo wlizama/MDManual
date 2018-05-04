@@ -137,7 +137,7 @@ Algunas cosas en CSS son un poco tediosas de escribir, especialmente con CSS3 y 
   .box { @include border-radius(10px); }
 ```
 
-**.css**
+**Output .css**
 
 ```css
   .box {
@@ -166,7 +166,7 @@ Una de las características que tienen los mixins es la directiva ``@content``. 
   }
 ```
 
-**.css**
+**Output .css**
 
 ```css
   .colors {
@@ -216,7 +216,7 @@ Esta es una de las características más útiles de Sass. El uso de **@extend** 
   }
 ```
 
-**.css**
+**Output .css**
 
 ```css
   .message, .success, .error, .warning {
@@ -250,7 +250,7 @@ _Sass_ define algunas funciones útiles que se llaman usando la sintaxis normal 
   }
 ```
 
-**css**
+**Output .css**
 
 ```csss
   p {
@@ -258,3 +258,30 @@ _Sass_ define algunas funciones útiles que se llaman usando la sintaxis normal 
 ```
 
 Consulte esta (página)[https://sass-lang.com/documentation/Sass/Script/Functions.html] para obtener una lista completa de las funciones disponibles.
+
+## @each
+
+La directiva ``@each`` tiene la forma ``@each $var in <list or map>`` donde ``$var`` va tomando cada valor durante la iteración de ``<list or map>``. Ejemplo:
+
+**.Scss**
+
+```scss
+  @each $animal in puma, sea-slug, egret, salamander {
+    .#{$animal}-icon {
+      background-image: url('/images/#{$animal}.png');
+    }
+  }
+```
+
+**Output .css**
+
+```scss
+  .puma-icon {
+    background-image: url('/images/puma.png'); }
+  .sea-slug-icon {
+    background-image: url('/images/sea-slug.png'); }
+  .egret-icon {
+    background-image: url('/images/egret.png'); }
+  .salamander-icon {
+    background-image: url('/images/salamander.png'); }
+```
