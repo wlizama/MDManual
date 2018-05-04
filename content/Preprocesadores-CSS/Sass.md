@@ -337,3 +337,14 @@ La directiva ``@if`` toma una expresión y devuelve algo que no sea falso o nulo
     color: green; }
 ```
 
+---
+
+## Enlaces de interés
+
++ [Documentación oficial de SASS](https://sass-lang.com/documentation/file.SASS_REFERENCE)
+
++ [Sassmeister, sitio para probar SASS](https://www.sassmeister.com/)
+
++ [Block Element Modifier (BEM)](http://getbem.com/introduction/)
+
++ [Repositorio del Curso](https://github.com/Wakkos/platzi-scss)
