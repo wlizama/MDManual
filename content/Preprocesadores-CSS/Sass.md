@@ -308,3 +308,32 @@ La diferencia de  ``@for`` con ``@each`` es que para cada repetición se usa una
   .item-3 {
     width: 6em; }
 ```
+
+## @if
+
+La directiva ``@if`` toma una expresión y devuelve algo que no sea falso o nulo
+
+**.Scss**
+
+```scss
+  $type: monster;
+  p {
+    @if $type == ocean {
+      color: blue;
+    } @else if $type == matador {
+      color: red;
+    } @else if $type == monster {
+      color: green;
+    } @else {
+      color: black;
+    }
+  }
+```
+
+**Output .css**
+
+```css
+  p {
+    color: green; }
+```
+
