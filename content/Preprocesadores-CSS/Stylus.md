@@ -25,3 +25,26 @@ Con el uso de ``&`` hacemos referencia al nombre del elemento padre
       &:before
         content ':('
 ```
+
+## Variables
+
+Estas nos permiten controlar un entorno. Esto quiere decir que podemos cambiar muchas cosas a través de muchas variables.
+
+Podemos asignar expresiones a variables y usarlas en nuestra hoja de estilos:
+
+**.styl**
+
+```styl
+  font-size = 14px
+
+ body
+   font font-size Arial, sans-serif
+```
+
+**Output .css**
+
+```styl
+  body {
+   font: 14px Arial, sans-serif;
+  }
+```
