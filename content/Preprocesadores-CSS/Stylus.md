@@ -119,3 +119,28 @@ Stylus presenta potentes definiciones de funciones. Las funciones son similares 
     padding: 10px; 
   }
 ```
+
+## Condicionales
+
+Los condicionales proporcionan un flujo de control. Stylus cuenta con condicionales ``if`` que vienen muy útiles a la hora de asegurarnos que algo tiene un valor y que se ejecute algo si eso se cumple.
+
+**.styl**
+
+```styl
+  box(x, y, margin = false)
+    padding y x
+    if margin
+      margin y x
+
+  body
+    box(5px, 10px, true)
+```
+**Output .css**
+
+```css
+  body{
+    padding: 10px 5px;
+    margin: 10px 5px;
+  }
+
+```
