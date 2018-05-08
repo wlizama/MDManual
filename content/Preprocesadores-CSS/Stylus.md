@@ -48,3 +48,44 @@ Podemos asignar expresiones a variables y usarlas en nuestra hoja de estilos:
    font: 14px Arial, sans-serif;
   }
 ```
+
+## Mixins
+
+Los mixins son declarados a través de nombres. Es importante que siempre añadamos el prefijo _mixin_ para poderlos identificar.
+
+**.styl**
+
+```styl
+  /* variable declarada en el archivo _variables.styl */
+
+  page-max-width= 1024px
+
+  mixin-max-width(width=page-max-width)
+    max-width:width
+    margin-left:auto
+    margin-right:auto
+
+  /* aqui toma el valor por defecto */
+  .container
+    mixin-max-width()
+
+  /* Aplicando el mixin con valor custom */
+  .section
+    mixin-max-width(90%)
+```
+
+**Output .css**
+
+```css
+  .container {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+```
