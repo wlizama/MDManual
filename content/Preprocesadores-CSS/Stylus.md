@@ -89,3 +89,33 @@ Los mixins son declarados a través de nombres. Es importante que siempre añada
     margin-right: auto;
   }
 ```
+## Funciones
+
+Stylus presenta potentes definiciones de funciones. Las funciones son similares a **mixins**; sin embargo, las funciones pueden retornar un valor.
+
+**.styl**
+
+```styl
+  add(a, b)
+    a + b
+
+  add2(a, b = a)
+    a + b
+
+  body
+    padding add(10px, 5)
+
+  section
+    padding add2(5px)
+```
+**Output .css**
+
+```css
+  body {
+    padding: 15px;
+  }
+
+  section {
+    padding: 10px; 
+  }
+```
