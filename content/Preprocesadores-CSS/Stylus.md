@@ -144,3 +144,28 @@ Los condicionales proporcionan un flujo de control. Stylus cuenta con condiciona
   }
 
 ```
+
+## Iteracion for
+
+Stylus le permite iterar expresiones a través de la estructura ``for / in``, tomando la forma de:
+
+```
+  for <val-name> [, <key-name>] in <expression>
+```
+
+**.styl**
+
+```styl
+  body
+  for num in 1 2 3
+    foo num
+```
+**Output .css**
+
+```css
+  body {
+    foo: 1;
+    foo: 2;
+    foo: 3;
+  }
+```
