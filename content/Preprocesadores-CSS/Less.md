@@ -55,3 +55,94 @@ También se pueden usar en otros lugares, como nombres de selector, nombres de p
     margin: 0 auto;
   }
 ```
+
+## Mixins
+
+Less es uno de los primeros preprocesadores que son la posibilidad de mezclar selectores. Puede combinar los selectores de clases y los selectores de id
+
+**Ejemplo**
+
+```less
+  .a, #b {
+    color: red;
+  }
+  .mixin-class {
+    .a();
+  }
+  .mixin-id {
+    #b();
+  }
+
+```
+
+Resulta en:
+
+```css
+  .a, #b {
+    color: red;
+  }
+  .mixin-class {
+    color: red;
+  }
+  .mixin-id {
+    color: red;
+  }
+```
+
+Si quieres crear un mixin pero no quieres que se compile ese mixin, puedes poner paréntesis después de él.
+
+**.less**
+
+```less
+  .my-mixin {
+    color: black;
+  }
+  .my-other-mixin() {
+    background: white;
+  }
+  .class {
+    .my-mixin;
+    .my-other-mixin;
+  }
+```
+
+**.css**
+
+```css
+  .my-mixin {
+    color: black;
+  }
+  .class {
+    color: black;
+    background: white;
+  }
+```
+
+También puede tomar argumentos.
+
+```less
+  .border-radius(@radius) {
+    -webkit-border-radius: @radius;
+       -moz-border-radius: @radius;
+            border-radius: @radius;
+  }
+```
+
+```less
+  #header {
+    .border-radius(4px);
+  }
+  .button {
+    .border-radius(6px);
+  }
+```
+
+Los mixins paramétrisados también pueden tener valores predeterminados.
+
+```less
+  .border-radius(@radius: 5px) {
+    -webkit-border-radius: @radius;
+       -moz-border-radius: @radius;
+            border-radius: @radius;
+  }
+```
