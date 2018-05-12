@@ -23,3 +23,17 @@ _ISP (Internet Service Provider-Proveedor de servicios de Internet):_ Es la empr
 **Internet:** Es una red de redes interconectadas mundialmente.
 
 **Topología de red:** Es el mapa físico y lógico de la red.
+
+## Intranet y Extranet
+
+Son dos formas en las que podemos diseñar e implementar las redes de acuerdo con caraterísticas de acceso que queremos dar a los usuarios.
+
+### Intranet
+
+Son aquellas redes internas que en las que el acceso a la información esta estrictamente limitada a personal de la compañía. Este tipo de redes se restringen con el uso de software y se usan en situaciones en las que la información a la que pueden acceder los usuarios es confidencial.
+
+### Extranet
+
+El siguiente nivel de acceso sucede cuando las compañías requieren dar acceso seguro y bajo confidencialidad a usuarios externos incluso a organizaciones diferentes a la que posee la información.
+
+Esto puede pasar por ejemplo cuando una compañía requiere compartir documentos o información con proveedores o contratistas.
