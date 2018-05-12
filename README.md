@@ -20,4 +20,6 @@ Manual desarrollado con **Markdown** que documenta las pasos a seguir, sugerenci
 
 8. [Django](https://github.com/wlizama/MDManual/tree/master/content/Django): Conceptos sobre el Framework Python **Django**.
 
-9. [WildMix](https://github.com/wlizama/MDManual/tree/master/content/WildMix): Notas varias.
+9. [Redes de Internet](https://github.com/wlizama/MDManual/tree/master/content/Redes-de-Internet): Apuntes del Curso de Redes de Internet.
+
+10. [WildMix](https://github.com/wlizama/MDManual/tree/master/content/WildMix): Notas varias.
