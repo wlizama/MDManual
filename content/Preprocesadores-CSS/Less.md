@@ -146,3 +146,20 @@ Los mixins paramétrisados también pueden tener valores predeterminados.
             border-radius: @radius;
   }
 ```
+
+## Funciones
+
+Less proporciona una variedad de funciones que transforman colores, manipulan cadenas y hacen operaciones matemáticas. 
+
+**Ejemplo**
+
+```less
+  @base: #f04615;
+  @width: 0.5;
+
+  .class {
+    width: percentage(@width); // returns `50%`
+    color: saturate(@base, 5%);
+    background-color: spin(lighten(@base, 25%), 8);
+  }
+```
