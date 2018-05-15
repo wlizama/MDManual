@@ -68,7 +68,7 @@ Se aprecia cuando tenemos dos nodos conectados por un medio para enviar informac
 
 + Reducen su rendimiento
 
-![image](https://es.wikipedia.org/wiki/Red_punto_a_punto#/media/File:Red_punto_a_punto.png "Topología punto a punto")
+![image](https://upload.wikimedia.org/wikipedia/commons/a/a8/Red_punto_a_punto.png "Topología punto a punto")
 
 ### Topología de bus
 
@@ -102,7 +102,7 @@ Una red en bus es aquella topología que se caracteriza por tener un único cana
 
 + Altas pérdidas en la transmisión debido a colisiones entre mensajes.
 
-![image](https://es.wikipedia.org/wiki/Red_en_bus#/media/File:Topologia_magistrali.svg "Topología de bus")
+![image](https://upload.wikimedia.org/wikipedia/commons/d/dd/Topologia_magistrali.svg "Topología de bus")
 
 ### Topología de anillo
 
@@ -132,7 +132,7 @@ Este tipo de topología aunque garantiza el envío de la información puede lleg
 
 + La transmisión de datos es más lenta que en las otras topologías (Estrella, Malla, Bus, etc), ya que la información debe pasar por todas las estaciones intermedias antes de llegar al destino.
 
-![image](https://es.wikipedia.org/wiki/Red_en_anillo#/media/File:Netzwerktopologie_Ring.png "Topología de anillo")
+![image](https://upload.wikimedia.org/wikipedia/commons/7/71/Netzwerktopologie_Ring.png "Topología de anillo")
 
 ### Topología de estrella
 
@@ -162,7 +162,7 @@ Es una topología que permite agregar nodos nuevos siempre que el dispositivo ce
 
 + El cable viaja por separado del concentrador a cada computadora.
 
-![image](https://es.wikipedia.org/wiki/Red_en_estrella#/media/File:Netzwerktopologie_Stern.png "Topología de estrella")
+![image](https://es.wikipedia.org/wiki/Red_en_estrella#/media/File:Netzwerktopologie_Stern.pn "Topología de estrella")
 
 ### Topología de malla
 
@@ -212,4 +212,4 @@ En esta topología contamos con varios dispositivos intermedios que permiten que
 
 + Si se llegara a desconectar un nodo, todos los que están conectados a él se desconectan también.
 
-![image](https://es.wikipedia.org/wiki/Red_en_%C3%A1rbol#/media/File:Netzwerktopologie_Baum.PNG "Topología de árbol")
+![image](https://upload.wikimedia.org/wikipedia/commons/a/ad/Netzwerktopologie_Baum.PNG "Topología de árbol")
