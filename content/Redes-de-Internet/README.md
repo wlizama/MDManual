@@ -248,3 +248,11 @@ Ejemplo de calculo de velocidad
 
   Velocidad en MB = 2.44
 ```
+
+## La Red Covergente
+
+Como su palabra lo indica convergen, en la que podemos trasmitir tanto la voz, los datos y video, por el mismo medio y ser utilizadas consecutivamente sin necesidad de una infraestructura para cada una de ellas, como era antes, además del menor coste de mantenimiento de las infraestructura.
+
+Podemos poner como ejemplo las líneas ADSL, en las cuales conviven los tres servicios conjuntamente, por las cuales se transmite la voz por el medio de cobre, con el que convive la transmisión de datos, por los que además se transmiten los servicios de TV, como puede ser la televisión bajo demanda o streaming.
+
+Eso es lo que podemos decir que es una red convergente. La interacción de varios servicios de comunicación por un solo medio.
