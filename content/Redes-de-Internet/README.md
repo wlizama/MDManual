@@ -213,3 +213,38 @@ En esta topología contamos con varios dispositivos intermedios que permiten que
 + Si se llegara a desconectar un nodo, todos los que están conectados a él se desconectan también.
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/a/ad/Netzwerktopologie_Baum.PNG "Topología de árbol")
+
+
+## Banda ancha y velocidad de internet
+
+Teniendo en cuenta que un bit puede ser un 0 o un 1 tenemos que:
+
+**1 Kilobit (Kb-Kbit)** = 1000 bits **(b)**
+
+**1 Megabit (Mb)** = 1000 Kilobits **(Kb)**
+
+**1 Byte (B)** = 8 bits **(b)** => Al byte también lo llaman octeto
+
+**1 Kilobyte (KB)** = 1024 Bytes **(B)**
+
+**1 Megabyte (MB)** = 1024 Kilobytes **(KB)**
+
+Ejemplo de calculo de velocidad
+
+```
+  Mi velocidad a : 20 Mbps
+
+  De Mb -> B
+
+  20 Mb = 2 500 000 B
+
+  De B a KB
+
+  2 500 000 B = 2441.41 KB
+
+  De KB a MB
+
+  2441.41 KB = 2.44141 MB
+
+  Velocidad en MB = 2.44
+```
