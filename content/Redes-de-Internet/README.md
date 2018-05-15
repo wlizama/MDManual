@@ -162,7 +162,7 @@ Es una topología que permite agregar nodos nuevos siempre que el dispositivo ce
 
 + El cable viaja por separado del concentrador a cada computadora.
 
-![image](https://es.wikipedia.org/wiki/Red_en_estrella#/media/File:Netzwerktopologie_Stern.pn "Topología de estrella")
+![image](https://upload.wikimedia.org/wikipedia/commons/5/53/Netzwerktopologie_Stern.png "Topología de estrella")
 
 ### Topología de malla
 
@@ -186,7 +186,7 @@ En las topologías de tipo malla todos los nodos están conectados entre sí, es
 
 + Es costosa de instalar ya que requiere de mucho cable.
 
-![image](https://es.wikipedia.org/wiki/Red_en_malla#/media/File:Netzwerktopologie_vermascht.png "Topología de malla")
+![image](https://upload.wikimedia.org/wikipedia/commons/9/91/Netzwerktopologie_vermascht.png "Topología de malla")
 
 ### Topología de árbol
 
