@@ -256,3 +256,19 @@ Como su palabra lo indica convergen, en la que podemos trasmitir tanto la voz, l
 Podemos poner como ejemplo las líneas ADSL, en las cuales conviven los tres servicios conjuntamente, por las cuales se transmite la voz por el medio de cobre, con el que convive la transmisión de datos, por los que además se transmiten los servicios de TV, como puede ser la televisión bajo demanda o streaming.
 
 Eso es lo que podemos decir que es una red convergente. La interacción de varios servicios de comunicación por un solo medio.
+
+## Métodos de acceso a los dispositivos
+
+### Protocolo Telnet
+
+Acrónimo de _"Telecommunication Network"_, es un protocolo de red que permite comunicarse en modo texto con otra máquina de manera que podamos controlarla de forma remota. Este protocolo se basa en la arquitectura **cliente-servidor**, donde el servidor será el ordenador que vamos a manejar y el cliente el ordenador desde el que vamos a controlar el servidor.
+
+Este es un protocolo muy simple, sin embargo, cuenta con grave problema de seguridad, y es que las conexiones no son seguras, y el tráfico viaja sin cifrar.
+
+### SSH
+
+_SSH o Secure Shell_, es un protocolo de administración remota que permite a los usuarios controlar y modificar sus servidores remotos a través de Internet. El servicio se creó como un reemplazo seguro para el Telnet sin cifrar y utiliza técnicas criptográficas para garantizar que todas las comunicaciones hacia y desde el servidor remoto sucedan de manera encriptada. Proporciona un mecanismo para autenticar un usuario remoto, transferir entradas desde el cliente al host y retransmitir la salida de vuelta al cliente.
+
+Cualquier usuario de **Linux** o **macOS** puede hacer SSH en su servidor remoto directamente desde la ventana del terminal. Los usuarios de **Windows** pueden aprovechar los clientes SSH como Putty. Puede ejecutar comandos shell de la misma manera que lo haría si estuviera operando físicamente el equipo remoto.
+
+Por defecto SSH usa el puerto 22 y Telnet utiliza el puerto 23, una medida básica de seguridad es configurarlos en otros puertos que no sean los establecidos por defecto.
