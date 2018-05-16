@@ -272,3 +272,27 @@ _SSH o Secure Shell_, es un protocolo de administración remota que permite a lo
 Cualquier usuario de **Linux** o **macOS** puede hacer SSH en su servidor remoto directamente desde la ventana del terminal. Los usuarios de **Windows** pueden aprovechar los clientes SSH como Putty. Puede ejecutar comandos shell de la misma manera que lo haría si estuviera operando físicamente el equipo remoto.
 
 Por defecto SSH usa el puerto 22 y Telnet utiliza el puerto 23, una medida básica de seguridad es configurarlos en otros puertos que no sean los establecidos por defecto.
+
+## Aspectos básicos de comunicación
+
+Los elementos básicos de la comunicación son: El emisor, el mensaje, el canal o el medio y el receptor. Los protocolos son las normas que nos indican establecer una comunicación que sea efectiva. Necesitamos establecer protocolos que nos ayuden a ver que la información pasen por todas las capas que tiene los procesos de comunicación.
+
+Los protocolos determinan las siguientes características:
+
++ Codificación del mensaje
+
++ Formato y encapsulamiento del mensaje
+
++ Tamaño del mensaje
+
++ Sincronización
+
++ Opciones de entrega
+
+El formato y la estructura del mensaje, la información que queremos transmitir debe tener una forma para que pueda ser enviada por el medio que queremos enviarlo.
+
+**Tamaño del mensaje:** Las señales muy grandes no son transmitidos, son rechazados. El tamaño es importante y se es limitado.
+
+**Sincronización:** Contamos con protocolos que nos ayudan a determinar cuando se esta enviando un mensaje, que ya llego un mensaje, que se puede llegar otro.
+
+**Opción de entrega:** Unicast se le envía a un solo host, Multicast permite enviar a un grupo más pequeño, no a todos los host, Broadcasting nos envía paquetes a toda la red.
