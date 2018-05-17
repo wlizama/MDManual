@@ -296,3 +296,23 @@ El formato y la estructura del mensaje, la información que queremos transmitir 
 **Sincronización:** Contamos con protocolos que nos ayudan a determinar cuando se esta enviando un mensaje, que ya llego un mensaje, que se puede llegar otro.
 
 **Opción de entrega:** Unicast se le envía a un solo host, Multicast permite enviar a un grupo más pequeño, no a todos los host, Broadcasting nos envía paquetes a toda la red.
+
+## Modelos de referencia Modelo OSI, modelo TCP/IP
+
+Los modelos de protocolos de referencia son normas y estándares que nos ayudan a determinar las fases y los protocolos por los que la información va a viajar hasta llegar a su destino.
+
+### Capas de Modelo de referencia OSI
+
+**Física**: Es la capa de los medios, son los cables, elementos que transmiten la información que transportan las señales y que llevan los mensajes
+
+**Enlace de datos**: Los equipos que hacen los direccionamiento. Estamos hablando de los medios fiscos pero no del cableado sino de los dispositivos que nos permiten codificar y decodificar la información.
+
+**Red**: es la capa que hace el direccionamiento lógico, el direccionamiento de IP.
+
+**Transporte**: Nos da la conexión de extremo a extremo. Tiene los protocolos TCP y UDP. Nos aseguran que el mensaje fue enviado y recibido.
+
+**Sesión**: Es una capa que se abre y nos mantiene el flujo de información que nos permite la comunicación entre los dispositivos de red.
+
+**Presentación**: Se refiere a la representación que tiene los archivos desde las aplicaciones.
+
+**Aplicación**: es la capa que tu ves, la que ves como usuario final
