@@ -326,3 +326,22 @@ Dos características que nos ayudan son el tamaño del mensaje y el formato del 
 + La multiplexación es la combinación de dos o más canales de información en un solo medio de transición.
 
 **PDU Protocol Data Unit** es una unidad que nos permite identificar la información a medida que es transmitida a través de las capas de red.
+
+## Capa Física y Medios de Red
+
+Hay algunas organizaciones que regulan los estándares de la capa física como **TIA** y la **EIA**.
+
+La capacidad de los medios para transportar los datos depende del ancho de banda, el rendimiento y la capacidad de transferencia útil.
+
+### Funciones de la capa física
+
+Controlar los componentes físicos, codificar y decodificar los datos, señalizar, convertir esos datos en señales que puedan ser enviados por los medios.
+
+La capa física está compuesta por:
+
+
++ **Cable de cobre**: Lleva impulsos eléctricos.
+
++ **Cable de fibra óptica**: Lleva impulsos de luz, emite 1 y 0 en forma de luz. No suele tener interferencia.
+
++ **Inalámbrico (ondas de radio)**: Viaja por Ondas Electromagnéticas.
