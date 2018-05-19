@@ -345,3 +345,17 @@ La capa física está compuesta por:
 + **Cable de fibra óptica**: Lleva impulsos de luz, emite 1 y 0 en forma de luz. No suele tener interferencia.
 
 + **Inalámbrico (ondas de radio)**: Viaja por Ondas Electromagnéticas.
+
+## Capa de enlace de datos
+
+Es la que se encarga de comunicar la parte física con la parte logica.
+
+**MAC**: Capa de acceso al medio fisico. Esto es una direccion que identifica unicamente a cada una de las tarjeta de red que tiene nuestros dispositivos.
+
+**LLC**: Capa de acceso lógico, esta capa es la que nos permite pasar los datos de forma lógica, transformarlos para que la capa de red pueda recbirla.
+
+**Gestion del canal**: la capa va a contar con protocolos que le permiten a la señal decir si va a una solo canal o si es duplex o full duplex.
+
+**Segmentación de la trama**: El tamaño del mensaje no puede ser muy grande ni muy pequeño. Verifica que no sean tramas muy largas ni cortas.
+
+**Control de errores y recuperación de fallos**: Lo que hace es poner caracteres que nos ayudan al final de la trama para identificar si esos datos llegaron completos, si se agrego información por el camino o si se perdió.
