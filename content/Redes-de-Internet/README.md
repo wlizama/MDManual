@@ -359,3 +359,19 @@ Es la que se encarga de comunicar la parte física con la parte logica.
 **Segmentación de la trama**: El tamaño del mensaje no puede ser muy grande ni muy pequeño. Verifica que no sean tramas muy largas ni cortas.
 
 **Control de errores y recuperación de fallos**: Lo que hace es poner caracteres que nos ayudan al final de la trama para identificar si esos datos llegaron completos, si se agrego información por el camino o si se perdió.
+
+## Diferencias entre Switch y el Access Point
+
+Recordemos de la capa Física y de medios de red es la que se encarga de hacer conexión entre dispositivos usando interfaces y direcciones físicas.
+
+En esta capa contamos con varios dispositivos y vamos a ver cuáles son y sus diferencias.
+
+### El Switch
+
+Es el dispositivo que nos permite realizar conexiones físicas entre hosts, el switch se encarga de filtrar y direccionar los paquetes a través de la red de área local LAN.
+
+El switch permite la conexión entre dispositivos a través del medio cableado.
+
+Existe otros dispositivo que nos permite hacer la conexión de manera casi igual, es el **Hub**, incluso pueden verse iguales, pero yo te recomiendo no usar este dispositivo.
+
+Mientras el switch toma los paquetes que llegan y analiza las direcciones físicas de los hosts conectados para reenviar el paquete únicamente a su destinatario el **Hub** envía el mensaje por todos los canales, sin tener en cuenta el direccionamiento.
