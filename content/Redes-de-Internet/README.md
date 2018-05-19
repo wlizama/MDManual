@@ -375,3 +375,23 @@ El switch permite la conexión entre dispositivos a través del medio cableado.
 Existe otros dispositivo que nos permite hacer la conexión de manera casi igual, es el **Hub**, incluso pueden verse iguales, pero yo te recomiendo no usar este dispositivo.
 
 Mientras el switch toma los paquetes que llegan y analiza las direcciones físicas de los hosts conectados para reenviar el paquete únicamente a su destinatario el **Hub** envía el mensaje por todos los canales, sin tener en cuenta el direccionamiento.
+
+### Accesss Point
+
+Otro dispositivo de la capa física es el Access Point, este dispositivo es el encargado de realizar el enlace entre las redes cableadas y las redes inalámbricas. Nos permite crear redes LAN haciendo haciendo uso de las ondas de radio.
+
+## Capa de RED
+
+El nivel de red o capa de red, según la normalización OSI, es un nivel o capa que proporciona conectividad y selección de ruta entre dos sistemas de hosts que pueden estar ubicados en redes geográficamente distintas. Es el tercer nivel del modelo OSI y su misión es conseguir que los datos lleguen desde el origen al destino aunque no tengan conexión directa. Ofrece servicios al nivel superior (nivel de transporte) y se apoya en el nivel de enlace, es decir, utiliza sus funciones.
+
+Para la consecución de su tarea, puede asignar direcciones de red únicas, interconectar subredes distintas, encaminar paquetes, utilizar un control de congestión y control de errores.
+
+Sus funciones principales son:
+
++ Hacer el direccionamiento de paquetes se refiere a asignar las direcciones lógicas de los paquetes.
+
++ Encapsulamiento de los paquetes.
+
++ Enrutamiento: Encontrar el camino que conecte una red con otra.
+
++ Desencapsulamiento de los paquetes.
