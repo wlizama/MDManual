@@ -432,6 +432,20 @@ Es un identificador lógico de las interfaces de red de los dispositivos que uti
 
 + 254 hosts
 
+### IPs Públicas y Privadas
+
+En las redes de área local se asignan direcciones a los dispositivos que permiten la conexión entre ellos. Las direcciones privadas son aquellas que no se pueden enrutar a través de Internet.
+
+Las direcciones IP públicas sin aquellas que permiten la conexión a Internet.
+
+Todos los dispositivos que están atrás de un mismo router tienen diferentes direcciones IP privadas únicas en ese segmento de red y una dirección pública que permite la conexión entre diferentes redes al rededor del mundo, esta dirección ip pública es la dirección del router.
+
+El segmento de direcciones privadas se encuentra entre
+
+10.0.0.0/8 a 10.255.255.255 para redes con conexión inalámbrica y
+
+192.168.0.0/16 a 192.168.255.255 para redes conectadas por medio cableado
+
 ### Direcciones IP con una función o proposito
 
 1. Direcciones privadas: no se pueden enrutar a través de internet.
@@ -454,8 +468,6 @@ Es un identificador lógico de las interfaces de red de los dispositivos que uti
 
    192.0.2.0/24
 
-
-
 ## Máscara de subred
 
 Nos permite identificar a simple vista la porción de la dirección IP que se a ha asignado a la identificación de la red y la porción que se ha asignado a los hosts.
@@ -465,3 +477,29 @@ Nos permite identificar a simple vista la porción de la dirección IP que se a 
 **B** - 255.255.0.0   ó 11111111.11111111.00000000.00000000
 
 **C** - 255.255.255.0 ó 11111111.11111111.11111111.00000000
+
+## Capa de Transporte
+
+Es la que se encarga de definir como van a ser enviados los mensajes, de acordar o asignar puertos y establecer esos protocolos que nos van a ayudar a que el mensaje sea enviado o garantizar del envio del mensaje.
+
+### Tareas de la Capa de Transporte
+
++ Segmentar los datos.
+
++ Realizar el seguimiento de las conversaciones individuales.
+
++ Identificar las aplicaciones de acuerdo al puerto.
+
+### Protocolos TCP y UDP
+
+**TCP** (Transmission Control Protocol) proporciona un servicio orientado a conexión y fiable.
+
+**UDP** (_User Datagram Protocol_) proporciona un servicio no orientado a conexión y no fiable, esto quiere decir que se va a intentar por todos los medios que los datos lleguen, pero no lo garantiza.
+
+_¿Cómo se envían los datos por la red?_ Se envían mediante **TCP** y **UDP**.
+
+_¿Es fiable la transmisión de los datos?_ Con **TCP** sí ya que lo garantiza, pero **UDP** no garantiza la transmisión fiable.
+
+_¿Se puede recuperar una información que llega dañada o que simplemente no llega?_ Tanto **TCP** como **UDP** tiene comprobación de errores, cuando se recibe una información dañada o no llega, se retransmite.
+
+_¿Nos garantizan los protocolos de transporte como TCP y UDP la entrega correcta de los datos?_ **TCP** sí, **UDP** no.
