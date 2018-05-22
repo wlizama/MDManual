@@ -432,6 +432,30 @@ Es un identificador lógico de las interfaces de red de los dispositivos que uti
 
 + 254 hosts
 
+### Direcciones IP con una función o proposito
+
+1. Direcciones privadas: no se pueden enrutar a través de internet.
+  
+   a. 10.0.0.0/8 a 10.255.255.255
+
+   b. 172.16.0.0/16 a 172.31.255.255
+
+   c. 192.168.0.0/24 a 192.168.255.255
+
+2. Direcciones de loopback
+   
+   127.0.0.0/8 a 127.255.255.254
+
+3. Direcciones de link local
+
+   168.254.0.0/16 169.254.255.254
+
+4. Test
+
+   192.0.2.0/24
+
+
+
 ## Máscara de subred
 
 Nos permite identificar a simple vista la porción de la dirección IP que se a ha asignado a la identificación de la red y la porción que se ha asignado a los hosts.
