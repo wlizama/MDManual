@@ -118,7 +118,7 @@ Este tipo de topología aunque garantiza el envío de la información puede lleg
 
 + Arquitectura muy sólida.
 
-+ Sistema operativo caracterizado con un único can
++ Sistema operativo caracterizado con un único canal
 
 **Desventajas**
 
@@ -358,7 +358,7 @@ Es la que se encarga de comunicar la parte física con la parte logica.
 
 **Segmentación de la trama**: El tamaño del mensaje no puede ser muy grande ni muy pequeño. Verifica que no sean tramas muy largas ni cortas.
 
-**Control de errores y recuperación de fallos**: Lo que hace es poner caracteres que nos ayudan al final de la trama para identificar si esos datos llegaron completos, si se agrego información por el camino o si se perdió.
+**Control de errores y recuperación de fallos**: Lo que hace es poner caracteres que nos ayudan al final de la trama para identificar si esos datos llegaron completos, si se agregó información por el camino o si se perdió.
 
 ## Diferencias entre Switch y el Access Point
 
@@ -372,7 +372,7 @@ Es el dispositivo que nos permite realizar conexiones físicas entre hosts, el s
 
 El switch permite la conexión entre dispositivos a través del medio cableado.
 
-Existe otros dispositivo que nos permite hacer la conexión de manera casi igual, es el **Hub**, incluso pueden verse iguales, pero yo te recomiendo no usar este dispositivo.
+Existe otros dispositivo que nos permite hacer la conexión de manera casi igual, es el **Hub**, incluso pueden verse iguales, pero no se recomienda usar este dispositivo.
 
 Mientras el switch toma los paquetes que llegan y analiza las direcciones físicas de los hosts conectados para reenviar el paquete únicamente a su destinatario el **Hub** envía el mensaje por todos los canales, sin tener en cuenta el direccionamiento.
 
