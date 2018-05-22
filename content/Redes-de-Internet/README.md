@@ -432,3 +432,12 @@ Es un identificador lógico de las interfaces de red de los dispositivos que uti
 
 + 254 hosts
 
+## Máscara de subred
+
+Nos permite identificar a simple vista la porción de la dirección IP que se a ha asignado a la identificación de la red y la porción que se ha asignado a los hosts.
+
+**A** - 255.0.0.0     ó 11111111.00000000.00000000.00000000
+
+**B** - 255.255.0.0   ó 11111111.11111111.00000000.00000000
+
+**C** - 255.255.255.0 ó 11111111.11111111.11111111.00000000
