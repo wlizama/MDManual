@@ -395,3 +395,40 @@ Sus funciones principales son:
 + Enrutamiento: Encontrar el camino que conecte una red con otra.
 
 + Desencapsulamiento de los paquetes.
+
+## Direcciones IP
+
+Es un identificador lógico de las interfaces de red de los dispositivos que utilizan protocolo IP para la comunicación.
+
+### Clases de IPv4
+
+**Clase A**
+
++ El primer octeto identifica la red.
+
++ Tres últimos octetos (24 bits) pueden ser asignados a los hots.
+
++ Cantidad máxima de hosts es ``2^24 - 2``
+
++ 16 777 214 hosts
+
+**Clase B**
+
++ Dos primeros octetos para identificar la red.
+
++ Dos octetos finales (16 bits) para que sean asignados a los hosts.
+
++ Cantidad máxima de hosts por cada read es ``2^16 - 2``
+
++ 65 534 hosts
+
+**Clase C**
+
++ Tres primeros octetos para identificar la red.
+
++ Octeto final (8 bits) para que sea asignado a los hosts.
+
++ Cantidad máxima de hosts por cada red es ``2^8 - 2``
+
++ 254 hosts
+
