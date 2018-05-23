@@ -1,6 +1,24 @@
-# Seguridad Informática
+# Introducción a la Seguridad Informática
 
-Una definición simple seria el proceso de prevenir y detectar el uso no autorizado de un sistema informático. Implica el proceso de proteger contra intrusos el uso de nuestros recursos informáticos con intenciones maliciosas o con intención de obtener ganancias, o incluso la posibilidad de acceder a ellos por accidente.
+## Seguridad Informática
+
+Medidas y controles que garantizan la confidencialidad, integridad y disponibilidad de los activos del sistema de información, incluyendo hardware, software, firmware e información procesada, almacenada y comunicada.
+
+## Seguridad de información
+
+La protección de los sistemas de información de información contra el acceso, uso divulgación, interrupción, modificación o destrucción no autorizado a fin de proporcionar confidencialidad, integridad y disponibilidad
+
+### Hacker
+
+Es apreciar la inteligencia jugetona, la curiosidad de acceder a un sistema. Imaginarse cosas que no están a simple vista.
+
+**Tipos**
+
+_Sombrero Negro_: Solamente utiliza la información para hacer daño.
+
+_Sombreo Gris_: Esta entre el bien y el mal, puede ser para proteger una empresa o para obtener algún beneficio.
+
+_Sombrero Blanco_: Para trabajar con ética y con valores. Reconoce los ataques de los de sombrero negro.
 
 ## Introducción al Pentesting
 
