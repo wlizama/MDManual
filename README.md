@@ -22,4 +22,6 @@ Manual desarrollado con **Markdown** que documenta las pasos a seguir, sugerenci
 
 9. [Redes de Internet](https://github.com/wlizama/MDManual/tree/master/content/Redes-de-Internet): Apuntes del Curso de Redes de Internet.
 
-10. [WildMix](https://github.com/wlizama/MDManual/tree/master/content/WildMix): Notas varias.
+10. [Introducción a la Seguridad Informática](https://github.com/wlizama/MDManual/tree/master/content/Seguridad-Informatica): Apuntes del Curso de Introducción a la Seguridad Informática.
+
+11. [WildMix](https://github.com/wlizama/MDManual/tree/master/content/WildMix): Notas varias.
