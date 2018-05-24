@@ -157,3 +157,11 @@ Nos permite encapsular un proyecto para poder instalar las versiones de los paqu
 ```sh
   pip install -r requirements.txt
 ```
+
+---
+
+## Enlaces de interés
+
++ [Documentación oficial de Python](https://docs.python.org/3/whatsnew/3.6.html)
+
++ [Paquetes Python](https://pypi.org/)
