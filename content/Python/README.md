@@ -165,3 +165,5 @@ Nos permite encapsular un proyecto para poder instalar las versiones de los paqu
 + [Documentación oficial de Python](https://docs.python.org/3/whatsnew/3.6.html)
 
 + [Paquetes Python](https://pypi.org/)
+
++ [PEP Estilo de codificación](https://www.python.org/dev/peps/pep-0008/)
