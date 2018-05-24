@@ -163,3 +163,11 @@ Un Script de ejemplo sería el de guardar la fecha cada minuto, todos los dias a 
 ```
 
 En el directorio **``/etc/cron.[frecuencia]``** existen una serie de archivos, en ellos se puede configurar algún script (o comando) que necesitemos ejecutar con "equis" frecuencia, de esta forma el Crontab queda guardado de forma permanente.
+
+---
+
+## Enlaces de interés
+
++ [Más de 400 comandos para GNU/Linux](https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/)
+
++ [Comandos y accesos directos más utilizados en la terminal para Mac](https://github.com/0nn0/terminal-mac-cheatsheet)

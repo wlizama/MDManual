@@ -88,3 +88,10 @@ Debemos saber que existen buenas y malas métricas para comparar algoritmos.
 + **Número de instrucciones ejecutadas:** Una vez tenemos un algoritmo hecho, debemos llevarlo a un lenguaje de programación, lo que significa que va a depender del lenguaje que estemos, el número de líneas de código (instrucciones) que vamos a utilizar.
 
 _**Para hacer un análisis del ritmo de crecimiento, siempre vamos a tomar el término de mayor peso.**_
+
+---
+
+## Enlaces de interés
+
++ [Documentación de C](https://devdocs.io/c/)
+

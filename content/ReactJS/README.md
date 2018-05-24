@@ -99,3 +99,9 @@ function Playlist(props) {
 _value_: No permite editar el input al menos que se envie el valor mediante props.
 
 _defaultValue_: permite editar el input
+
+---
+
+## Enlaces de interés
+
++ [Documentación oficial ReactJS](https://reactjs.org/docs)

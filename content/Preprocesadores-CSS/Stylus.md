@@ -170,6 +170,8 @@ Stylus le permite iterar expresiones a través de la estructura ``for / in``, to
   }
 ```
 
+---
+
 ## Enlaces de interés
 
 + [Documentación oficial de Stylus](http://stylus-lang.com/docs/)

@@ -100,3 +100,11 @@ _``./manage.py makemigrations``_ detecta cambios en los modelos y construye una 
 _``./manage.py migrate``_ ejecutar migraciones
 
 _``./manage.py shell``_ consola iterativa del proyecto
+
+---
+
+## Enlaces de interés
+
++ [Documentación oficial de Django](https://docs.djangoproject.com/en/2.0/)
+
++ [Django Tutorial](https://docs.djangoproject.com/es/2.0/intro/)
