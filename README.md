@@ -24,4 +24,6 @@ Manual desarrollado con **Markdown** que documenta las pasos a seguir, sugerenci
 
 10. [Introducción a la Seguridad Informática](https://github.com/wlizama/MDManual/tree/master/content/Seguridad-Informatica): Apuntes del Curso de Introducción a la Seguridad Informática.
 
+11. [Fundamentos de Ingeniería de Software](https://github.com/wlizama/MDManual/tree/master/content/Fundamentos-de-Ing-de-Softwate): Apuntes del Curso Fundamentos de Ingeniería de Software.
+
 11. [WildMix](https://github.com/wlizama/MDManual/tree/master/content/WildMix): Notas varias.
