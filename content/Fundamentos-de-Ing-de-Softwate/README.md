@@ -121,3 +121,13 @@ Esto es mucho más rápido de lo que podría lograr la CPU sola ya que debería 
 _El GPU es como el **Front-End** del software, se encarga de que todos los gráficos de la computadora se vean y funcionen perfectamente bien._
 
 _Haciendo que el CPU deje de preocuparse por eso y se enfoque en otros tipos de procesamiento._
+
+### Periféricos y sistemas de entrada de información
+
+Los sistemas operativos normalmente tienen un núcleo llamado kernel, que es el principal elemento que los representa y es la primera parte del sistema operativo que se carga en la memoria RAM. El kernel del sistema operativo tiene acceso a todo en nuestra computadora: nuestros archivos, a nuestros periféricos, a los datos de las aplicaciones.
+
+El kernel, inmediatamente después de ser cargado en RAM, se encarga de cargar los drivers: pequeñas piezas de software que permiten interpretar las señales eléctricas del hardware, para que el sistema operativo pueda comunicarse con ellos.
+
+Luego tenemos otro set de drivers que pueden ser los controladores de arranque llamados drivers de aplicación. Cuanto más nos alejamos del kernel, menos privilegios tenemos. Los drivers de aplicación deben pedirle permisos a los drivers anteriores para poder acceder al hardware.
+
+La última capa la representan las aplicaciones. Esta es la capa que menos permisos tiene, ya que las aplicaciones no deberían poder acceder al hardware directamente.
