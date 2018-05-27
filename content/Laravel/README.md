@@ -59,3 +59,9 @@ Si tiene PHP instalado localmente y desea utilizar el servidor de desarrollo inc
 ```sh
     php artisan serve
 ```
+
+---
+
+## Enlaces de interés
+
++ [Documentación oficial de Laravel](https://laravel.com/docs/5.6)

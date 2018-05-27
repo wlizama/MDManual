@@ -163,3 +163,9 @@ Less proporciona una variedad de funciones que transforman colores, manipulan ca
     background-color: spin(lighten(@base, 25%), 8);
   }
 ```
+
+---
+
+## Enlaces de interés
+
++ [Documentación oficial de Less](http://lesscss.org/)
