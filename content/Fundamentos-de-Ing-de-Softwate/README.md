@@ -100,3 +100,24 @@ Discos duros:
     
     Para la conexión entre en disco duro y la CPU, el bus de datos recibió inicialmente el nombre ATA, que en una versión posterior se llamó SATA. Hay otro tipo de bus de datos para el disco duro mejor que SATA, que se llamó IDG.
 
+### GPUs, tarjetas de video y sonido
+
+¿Cómo veo en pantalla que el archivo se ha abierto?
+
+Esto se logra gracias a la **Graphic Processing Unit o GPU**.
+
+La CPU puede ejecutar cualquier proceso, incluido el dibujado en pantalla de ciertos datos. Pero no es ella quien se encarga, sino la GPU: tarjetas especialmente fabricadas para realizar estas tareas.
+
+La comunicación entre la CPU y la GPU se realiza actualmente a través de un socket llamado PCI-Express.
+
+Estas placas de vídeo tienen sus propias unidades o núcleos de procesamiento y su propia memoria RAM.
+
+Lo que sucede es que la GPU divide la pantalla en una matriz y cada núcleo se encarga de dibujar una parte de esa matriz, para lograr una mejor performance.
+
+Esto es mucho más rápido de lo que podría lograr la CPU sola ya que debería dibujar pixel por pixel ella sola.
+
+**Entonces haciendo una analogía**
+
+_El GPU es como el **Front-End** del software, se encarga de que todos los gráficos de la computadora se vean y funcionen perfectamente bien._
+
+_Haciendo que el CPU deje de preocuparse por eso y se enfoque en otros tipos de procesamiento._
