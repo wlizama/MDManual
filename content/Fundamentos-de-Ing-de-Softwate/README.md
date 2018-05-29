@@ -179,3 +179,35 @@ Cuantos rangos de ip tenemos disponibles y mencionan algunos puertos y para que 
   + Los puertos del 49151 al 65535 son llamados dinámicos o privados y son aquellos que se asignan dinámicamente a alguna aplicación del cliente, cuando inicia una conexión.
 
     Ejemplos: Son usados por los servicios P2P (peer to peer)
+
+### Qué es una dirección IP y el protocolo de Internet
+
+**IP**: es la sigla de Internet Protocol y una dirección IP es un número único con el cual una computadora o un dispositivo se identifica cuando está conectada a una red con el protocolo IP.
+
+Cada dirección IP está compuesta por 4 números separados por puntos y son una forma de comprender números más grandes y complejos. Las direcciones IP tienen una estructura que las convierten en privadas o públicas y que además hacen parte de la máscara de red y el getaway.
+
+Las direcciones IP permiten que cada computador o dispositivo pueda conectarse al exterior, es decir a Internet, esto a través de tecnologías como **NAT** o _Network Address Translation_.
+
+**Mascara de red**: La máscara de red o redes es una combinación de bits que sirve para delimitar el ámbito de una red de ordenadores. Su función es indicar a los dispositivos qué parte de la dirección IP es el número de la red, incluyendo la subred, y qué parte es la correspondiente al host. Mediante la máscara de red, un sistema (ordenador, puerta de enlace, router, etc...) podrá saber si debe enviar un paquete dentro o fuera de la subred en la que está conectado. Por ejemplo, si el router tiene la dirección IP ``192.168.1.1`` y máscara de red ``255.255.255.0``, entiende que todo lo que se envía a una dirección IP con formato ``192.168.1.X``, se envía hacia la red local, mientras que direcciones con distinto formato de direcciones IP serán buscadas hacia afuera (internet, otra red local mayor, etc…).
+
+**Gateway**: La pasarela (en inglés _gateway_ ) o puerta de enlace es el dispositivo que actúa de interfaz de conexión entre aparatos o dispositivos, y también posibilita compartir recursos entre dos o más computadoras.
+
+Su propósito es traducir la información del protocolo utilizado en una red inicial, al protocolo usado en la red de destino.
+
+La pasarela es normalmente un equipo informático configurado para dotar a las máquinas de una red de área local (Local Area Network, LAN) conectadas a él de un acceso hacia una red exterior, generalmente realizando para ello operaciones de traducción de direcciones de red(Network Address Translation, NAT). Esta capacidad de traducción de direcciones permite aplicar una técnica llamada "enmascaramiento de IP" (IP Masquerading), usada muy a menudo para dar acceso a Internet a los equipos de una LAN compartiendo una única conexión a Internet, y por tanto, una única dirección IPexterna.
+
+**NAT**: La traducción de direcciones de red o **NAT** (del inglés _Network Address Translation_) es un mecanismo utilizado por routers IP para intercambiar paquetes entre dos redes que asignan mutuamente direcciones incompatibles. Consiste en convertir, en tiempo real, las direcciones utilizadas en los paquetes transportados. También es necesario editar los paquetes para permitir la operación de protocolos que incluyen información de direcciones dentro de la conversación del protocolo.
+
+**_Nota_**
+
+La manera mas facil de ver si una IP es clase A, B o C es utilizando la mascara de red estandar y estas son:
+
+255.0.0.0 - **CLASE A**
+
+255.255.0.0 - **CLASE B**
+
+255.255.255.0 - **CLASE C**
+
+Pero, tambien existe el metodo de máscara de subred variable, la cual es muy util para segmentar una red ip con mascara de red estandar.
+
+Toda seccion representada por un 0 en la mascara de red va a ser destinada a host o clientes y las que estan representadas por 255 son la destinada a la red.
