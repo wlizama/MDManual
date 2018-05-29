@@ -141,3 +141,41 @@ Hoy en día tenemos computadoras en nuestros propios bolsillos y las cargamos a 
 Ese salto evolutivo en la computación ocurre gracias a la estandarización de la arquitectura de las computadoras: decidimos que un Byte son 8 bits, que la CPU es la encargada de procesar, que la GPU representa datos visualmente, que 1024 Bytes son un KiloByte, y que 1024 KB son 1 MB, que exista un puerto común como el USB que nos permite conectar otros dispositivos externos.
 
 Estandarizamos la transferencia de datos y los protocolos de comunicación. Hay un formato definido para cada tipo de imágenes, hay una forma de escribir HTML para que el navegador lo interprete y pueda mostrarnos elementos visuales en la pantalla. Definimos una forma para comprimir un archivo.
+
+## Cómo funciona internet
+
+### Puertos y protocolos de red
+
+Como funcionan y cuales son las direcciones IP, quien las asigna a nivel publico y como los router a través de DHCP asignan las privadas.
+
+Cuantos rangos de ip tenemos disponibles y mencionan algunos puertos y para que se usan.
+
++ IP’s que dirigen a nuestro pc:
+  
+  + 127.0.0.1
+  
+  + 192.168.0.1 (Ip de LAN )
+  
+  + localhost (host)
+
++ Puertos: Redes virtual dentro del SO
+
+  Se puede hacer una analogía con los cables y pines, por lo que enviamos información en un circuito. En un SO funcionan los puertos
+
+  + Del 1 al 1024 (llamados bien conocidos) están reservados para ser ejecutados por el SO a través del admin.
+
+    **Ejemplos:**
+    
+    + 1 - Protocolo HTTP => Puerto 80
+    
+    + 2 - Protocolo HTTPS => Puerto 443
+  
+  + Del 1024 al 49151 son los puertos registrados, los cuales puede usar cualquier aplicación
+
+    **Ejemplo:**
+
+    + 1 - Bittorrent => Puertos del 6881 al 6889
+
+  + Los puertos del 49151 al 65535 son llamados dinámicos o privados y son aquellos que se asignan dinámicamente a alguna aplicación del cliente, cuando inicia una conexión.
+
+    Ejemplos: Son usados por los servicios P2P (peer to peer)
