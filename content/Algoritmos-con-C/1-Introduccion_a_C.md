@@ -1,105 +1,105 @@
-# IntroducciÛn al Lenguaje C
+# Introducci√≥n al Lenguaje C
 
 **Notas:**
 
-+ El lenguaje ``C`` fue una revoluciÛn en su Època ya que en ese entonces se utilizaba todavÌa el lenguaje ensamblador para acceder al lenguaje m·quina o para trabajar directamente con el hardware.
++ El lenguaje ``C`` fue una revoluci√≥n en su √©poca ya que en ese entonces se utilizaba todav√≠a el lenguaje ensamblador para acceder al lenguaje m√°quina o para trabajar directamente con el hardware.
 
-+ Lo increÌble de este lenguaje era que tenÌa la capacidad de trabajar a nivel hardware y adem·s estaba optimizado pues era un lenguaje de alto nivel.
++ Lo incre√≠ble de este lenguaje era que ten√≠a la capacidad de trabajar a nivel hardware y adem√°s estaba optimizado pues era un lenguaje de alto nivel.
 
-+ El lenguaje es hoy en dÌa todavÌa el lenguaje de programaciÛn m·s utilizado en sistemas embebidos y en sistemas de bajos recursos de hardware donde necesitamos el acceso al hardware y donde se necesita tener muy alto rendimiento.
++ El lenguaje es hoy en d√≠a todav√≠a el lenguaje de programaci√≥n m√°s utilizado en sistemas embebidos y en sistemas de bajos recursos de hardware donde necesitamos el acceso al hardware y donde se necesita tener muy alto rendimiento.
 
-+ El lenguaje ``C`` tardÛ varios aÒos en estandarizarse.
++ El lenguaje ``C`` tard√≥ varios a√±os en estandarizarse.
 
-+ Un est·ndar en ``C`` significa una serie de guÌas y directivas que se deben de seguir al momento de escribir tu cÛdigo que est·n respaldadas por una asociaciÛn (ANSI).
++ Un est√°ndar en ``C`` significa una serie de gu√≠as y directivas que se deben de seguir al momento de escribir tu c√≥digo que est√°n respaldadas por una asociaci√≥n (ANSI).
 
-+ La programaciÛn estructurada es un mÈtodo de programaciÛn o un paradigma que dice que vamos a ejecutar el cÛdigo de forma secuencial, lÌnea tras lÌnea, del inicio al fin.
++ La programaci√≥n estructurada es un m√©todo de programaci√≥n o un paradigma que dice que vamos a ejecutar el c√≥digo de forma secuencial, l√≠nea tras l√≠nea, del inicio al fin.
 
-+ ``C`` es un lenguaje de programaciÛn compilado.
++ ``C`` es un lenguaje de programaci√≥n compilado.
 
 + ``C`` es un lenguaje tipado.
 
 
-## CaracterÌsticas importantes de C
-+ N˙cleo del lenguaje simple que opera con bibliotecas.
+## Caracter√≠sticas importantes de C
++ N√∫cleo del lenguaje simple que opera con bibliotecas.
 
-+ Lenguaje flexible que soporta la programaciÛn.
++ Lenguaje flexible que soporta la programaci√≥n.
 
 + Acceso a memoria de bajo nivel con punteros.
 
 + Utiliza un conjunto reducido de palabras clave.
 
-+ Pasaje de par·metros por valor y referencia.
++ Pasaje de par√°metros por valor y referencia.
 
 ## Tipos de errores y datos en C
 Existen 4 tipos principales de errores en C:
 
-+ **Sint·cticos:** Todo lenguaje tiene una estructura definida de instrucciones que vamos a utilizar para indicarle al programa lo que nosotros queremos hacer. Estos errores son cuando escribimos mal en el cÛdigo estas instrucciones ya definidas.
++ **Sint√°cticos:** Todo lenguaje tiene una estructura definida de instrucciones que vamos a utilizar para indicarle al programa lo que nosotros queremos hacer. Estos errores son cuando escribimos mal en el c√≥digo estas instrucciones ya definidas.
 
-+ **En el enlace:** Cuando enlazamos las librerÌas con nuestro cÛdigo inicial, puede ocurrir que invoquemos mal una funciÛn o no insertemos la librerÌa que necesit·bamos, esto a la hora de compilar nos va a arrojar un error.
++ **En el enlace:** Cuando enlazamos las librer√≠as con nuestro c√≥digo inicial, puede ocurrir que invoquemos mal una funci√≥n o no insertemos la librer√≠a que necesit√°bamos, esto a la hora de compilar nos va a arrojar un error.
 
-+ **De ejecuciÛn:** Este sucede cuando por alguna razÛn, mientras el programa est· corriendo, alguno de los valores que vamos a utilizar en una variable, genera que haya una operaciÛn inv·lida.
++ **De ejecuci√≥n:** Este sucede cuando por alguna raz√≥n, mientras el programa est√° corriendo, alguno de los valores que vamos a utilizar en una variable, genera que haya una operaci√≥n inv√°lida.
 
-+ **Sem·nticos:** Es mucho m·s complicado detectarlos, ya que son los errores que tenemos cuando nuestros programa funciona bien, se ejecuta bien, corre sin problemas tÈcnicos pero no est· teniendo el resultado que nosotros est·bamos esperando y la soluciÛn no est· bien implementada.
++ **Sem√°nticos:** Es mucho m√°s complicado detectarlos, ya que son los errores que tenemos cuando nuestros programa funciona bien, se ejecuta bien, corre sin problemas t√©cnicos pero no est√° teniendo el resultado que nosotros est√°bamos esperando y la soluci√≥n no est√° bien implementada.
 
 
 ## Identificadores
-Es el nombre que identifica una constante, variable o funciÛn.
+Es el nombre que identifica una constante, variable o funci√≥n.
 
 Reglas para los identificadores:
 
 + Longitud ilimitada, pero se recomienda usar nombres descriptivos pero cortos.
 
-+ Deben comenzar con una letra o guiÛn bajo.
++ Deben comenzar con una letra o gui√≥n bajo.
 
-+ No se puede usar n˙meros.
++ No se puede usar n√∫meros.
 
 + No se puede usar caracteres especiales.
 
-+ Deben ser ˙nicos en el programa.
++ Deben ser √∫nicos en el programa.
 
-+ …nfasis en la diferencia entre may˙sculas y min˙sculas.
++ √ânfasis en la diferencia entre may√∫sculas y min√∫sculas.
 
-+ No puede coincidir con una palabra reservada del lenguaje o con una funciÛn de biblioteca.
++ No puede coincidir con una palabra reservada del lenguaje o con una funci√≥n de biblioteca.
 
 
 ## Tipos de datos en C
 + **char** Caracter
 
-+ **int** N˙mero entero
++ **int** N√∫mero entero
 
-+ **float** N˙mero real de precisiÛn simple
++ **float** N√∫mero real de precisi√≥n simple
 
-+ **double** N˙mero real de precisiÛn doble
++ **double** N√∫mero real de precisi√≥n doble
 
 
 ## Variables en C
-Las variables son una posiciÛn de memoria donde se almacena un dato.
+Las variables son una posici√≥n de memoria donde se almacena un dato.
 
 Hay dos cosas que se deben definir en una variable:
 
 **Nombre:** Esto nos sirve para poder recuperar su valor en cualquier parte del programa que estemos desarrollando.
 
-**Tipo:** Es el lÌmite que le damos de almacenamiento de valores.
+**Tipo:** Es el l√≠mite que le damos de almacenamiento de valores.
 
 
 ## Operadores y expresiones
-Son sÌmbolos especÌficos que van a tener una funciÛn definida.
+Son s√≠mbolos espec√≠ficos que van a tener una funci√≥n definida.
 
 Los operadores se dividen en 4 tipos:
 
-**Operadores de AsignaciÛn ( = ):** Este nos permite asignarle el resultado de una expresiÛn a una variable dada. Es importante recordar que la expresiÛn debe de usar los mismo tipos de datos que vamos a guardar en la variable.
+**Operadores de Asignaci√≥n ( = ):** Este nos permite asignarle el resultado de una expresi√≥n a una variable dada. Es importante recordar que la expresi√≥n debe de usar los mismo tipos de datos que vamos a guardar en la variable.
 
-**Operadores AritmÈticos:** Estos operadores van a tener un orden o jerarquÌa en la que se resuelven, los parÈntesis nos van a ayudar a que este orden se cumpla para llegar al resultado que se espera.
+**Operadores Aritm√©ticos:** Estos operadores van a tener un orden o jerarqu√≠a en la que se resuelven, los par√©ntesis nos van a ayudar a que este orden se cumpla para llegar al resultado que se espera.
 
-**Operadores Relacionales:** Estos nos van a servir para establecer una relaciÛn entre dos n˙meros y evaluarla o hacer una comparaciÛn.
+**Operadores Relacionales:** Estos nos van a servir para establecer una relaci√≥n entre dos n√∫meros y evaluarla o hacer una comparaci√≥n.
 
-**Operadores LÛgicos:**
+**Operadores L√≥gicos:**
 
 a) Siempre nos van a devolver valores en verdadero o falso, los cuales son denominados valores booleanos.
 
-b) En el lenguaje de programaciÛn de C no existen los valores booleanos, por lo que asÌ se definen:
+b) En el lenguaje de programaci√≥n de C no existen los valores booleanos, por lo que as√≠ se definen:
 
-- **Valor verdadero.** Cualquier n˙mero que sea distinto a cero.
+- **Valor verdadero.** Cualquier n√∫mero que sea distinto a cero.
 
 - **Valor falso.** Cero.
 
@@ -107,28 +107,40 @@ b) En el lenguaje de programaciÛn de C no existen los valores booleanos, por lo 
 
 **Importante:**
 
-+ Los operadores lÛgicos o booleanos son empleados para comparar dos valores.
++ Los operadores l√≥gicos o booleanos son empleados para comparar dos valores.
 
-+ Los operadores lÛgicos o booleanos denotan una relaciÛn entre dos valores.
++ Los operadores l√≥gicos o booleanos denotan una relaci√≥n entre dos valores.
 
-+ Los operadores lÛgicos o booleanos tienen el mismo nivel de prioridad.
++ Los operadores l√≥gicos o booleanos tienen el mismo nivel de prioridad.
 
 
 ## Entrada y Salida de datos
-La salida de datos est·ndar tiene 3 aspectos importantes:
+La salida de datos est√°ndar tiene 3 aspectos importantes:
 
 **1.** La salida por defecto es de la pantalla.
 
 **2.** Puede ser redireccionado.
 
-**3.** Cuando es redireccionado se utiliza la funciÛn printf.
+**3.** Cuando es redireccionado se utiliza la funci√≥n printf.
 
-La entrada de datos est·ndar tiene 3 aspectos importantes:
+La entrada de datos est√°ndar tiene 3 aspectos importantes:
 
 **1.** La entra es por defecto en el teclado.
 
 **2.** Puede ser redireccionado.
 
-**3.** Cuando es redireccionado se utiliza la funciÛn scanf.
+**3.** Cuando es redireccionado se utiliza la funci√≥n scanf.
 
 ![image](https://raw.githubusercontent.com/wlizama/MDManual/master/assets/images/codigo_formato_salida_C.png "Codigo formato de salidas en C")
+
+## Algoritmos de Ordenamiento
+
+**Merge Sort** Divide la matriz de entrada en dos mitades, se llama a s√≠ misma para las dos mitades y luego fusiona las dos mitades ordenadas.
+
+**Insertion Sort** Itera por la lista al consumir un elemento de entrada en cada repetici√≥n y hacer crecer una lista de salida ordenada. En una repetici√≥n, la ordenaci√≥n de inserci√≥n elimina un elemento de los datos de entrada, encuentra la ubicaci√≥n a la que pertenece dentro de la lista ordenada y la inserta all√≠. Se repite hasta que no quedan elementos de entrada.
+
+**Bubble Sort** Compara cada par de elementos adyacentes desde el comienzo de una matriz y, si est√°n en orden inverso, c√°mbialos. Si se ha realizado al menos un intercambio, repita el paso 1.
+
+**Quick Sort** Hay dos √≠ndices ``i`` y ``j`` y al principio del algoritmo de partici√≥n apunta al primer elemento en el conjunto y ``j`` apunta al √∫ltimo. Luego, el algoritmo se mueve hacia delante, hasta que se encuentra un elemento con un valor mayor o igual al pivote. El √≠ndice ``j`` se mueve hacia atr√°s, hasta que se encuentra un elemento con un valor menor o igual al pivote. Si ``i ‚â§ j``, entonces se intercambian y yo paso a la siguiente posici√≥n ``( i + 1 )``, ``j`` pasos a la anterior ``(j - 1)``. El algoritmo se detiene, cuando soy mayor que ``j``
+
+Despu√©s de la partici√≥n, todos los valores anteriores al elemento i-√©simo son menores o iguales que el pivote y todos los valores posteriores al elemento j-√©simo son mayores o iguales al pivote.
