@@ -364,3 +364,19 @@ Cuando estas transmitiendo un archivo por Internet se especifica el tipo de arch
 - Los Sistemas Operativos, tienen en una base de datos guardada la correspondencia de cada extensión de archivo. Es decir, en la base de datos dirá algo como: jpg = imagen, mp3 = musica, html = pagina web y así... En todo caso para llegar a esta base de datos y encontrar a que corresponde, es necesario primero identficar que tipo de archivo es. Para ello el SO lee los primeros bits de cada archivo hasta que encuentra cierto patron, esos bits de identificación se llaman la cabecera. Una vez identificado el patrón, el SO ya conoce que tipo de archivo es, con que programa se debe abrir y cómo se debe mostrar gracias a la base de datos.
 
 - Todo esto en la web funciona a través de un estandar denominado **MIME TYPES** (_Extensión para emails multiproposito_). Eventualmente funcionaba solo con emails, pero hoy en día esta en la mayoria de protocolos de comunicación. La forma en que funciona es sencilla, en la cabecera del protocolo de comunicación (independiente de si es http, ftp...) se envían metadatos con la información del archivo. De tal forma que si es una pagina web, envía _text/html_, si es un video mp4 envía _video/mp4_ y asi se logra la identificación de los archivos.
+
+### Cómo funciona el formato JPG
+
+Asumamos que tenemos una foto de 600\*800, si esto estuviera en un formato sin compresión pesaría 840KB,solo representando un color por pixel
+
+Para tener una calidad de 32 bit la imagen debe pesar 1.9MB para esto podemos comprimir las imágenes y usar formatos como **jpeg**
+
+**jpg** lo que hace es aproximar áreas de color, si un color esta en áreas continuas solo se declara la zona y el color de esa zona, de esta forma se pueden tener imágenes que pesan mucho menos.
+
+1 Bit representa como número máximo es el 256: Por lo tanto en un **.bmp** tiene 256 colores y para determinar su tamaño se debe multiplicar el ancho por el alto de la imagen.
+
+- Para representar colores de 16 bits: Se necesitan 2 bytes.
+
+- Para representar colores (ultra-reales) de 32 bits: Se necesitan 4 bytes.
+
+**_Nota_**: Sí cada byte tiene 8 bits, entonces; 16 bits es igual a 2 bytes y 32 bits es igual a 4 bytes.
