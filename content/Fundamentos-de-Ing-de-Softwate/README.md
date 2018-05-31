@@ -340,3 +340,27 @@ Los sistemas embebidos son dispositivos que se encuentran en una gran variedad d
 Los arduinos son una herramienta que permite crear prototipos de este tipo de sistemas, desde automatizar un horno antiguo hasta controlar una cámara por IoT, por esto son tan populares.
 
 El Raspberry Pi es un dispositivo que contiene los mismos componentes que tiene un computador y cuesta sólo 35 USD, por esto y por sus entradas y salidas de propósito general (GPIO) es un sistema que vive y controla muchos proyectos desde sistemas retro de videojuegos hasta mini-clusters de cómputo, servidores multimedia DIY y más.
+
+## 4. Archivos y estructuras de datos
+
+### Metadatos, cabeceras y extensiones de archivos
+
+Tu aprendiste que .jpg significa la extensión de archivos de imagen, históricamente windows tenia muy pocos bytes para la extensión, por esto la extensión normalmente era de 3 dígitos.
+
+Existen muchas otras extensiones como .html para páginas web, .mpg4 para vídeo.
+
+Cuando abres los archivos vas a ver su codificación binaria o dependiendo del editor puedes verlo en hexadecimal.
+
+Un sistema operativo lee los primeros bytes del archivo para entender a que archivo corresponde, esta información se llama cabecera.
+
+Cada sistema operativo tiene una base de datos de que programa abre que tipo de archivo.
+
+Cuando estas transmitiendo un archivo por Internet se especifica el tipo de archivo con mime types, el cual se transmite en la cabecera de un paquete http.
+
+**_Notas_**
+
+- La mayoría de extensiones son de tres caracteres porque en los inicios de la computación, solo era posible asignar 3 bits para la extensión (tipo) de archivo, y 8 para el nombre. Sin embargo todo avanzó y ya no estamos limitados a usar solo tres caracteres para denotar el tipo de archivo.
+
+- Los Sistemas Operativos, tienen en una base de datos guardada la correspondencia de cada extensión de archivo. Es decir, en la base de datos dirá algo como: jpg = imagen, mp3 = musica, html = pagina web y así... En todo caso para llegar a esta base de datos y encontrar a que corresponde, es necesario primero identficar que tipo de archivo es. Para ello el SO lee los primeros bits de cada archivo hasta que encuentra cierto patron, esos bits de identificación se llaman la cabecera. Una vez identificado el patrón, el SO ya conoce que tipo de archivo es, con que programa se debe abrir y cómo se debe mostrar gracias a la base de datos.
+
+- Todo esto en la web funciona a través de un estandar denominado **MIME TYPES** (_Extensión para emails multiproposito_). Eventualmente funcionaba solo con emails, pero hoy en día esta en la mayoria de protocolos de comunicación. La forma en que funciona es sencilla, en la cabecera del protocolo de comunicación (independiente de si es http, ftp...) se envían metadatos con la información del archivo. De tal forma que si es una pagina web, envía _text/html_, si es un video mp4 envía _video/mp4_ y asi se logra la identificación de los archivos.
