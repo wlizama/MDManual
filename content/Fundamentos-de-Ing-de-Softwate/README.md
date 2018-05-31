@@ -142,7 +142,7 @@ Ese salto evolutivo en la computación ocurre gracias a la estandarización de l
 
 Estandarizamos la transferencia de datos y los protocolos de comunicación. Hay un formato definido para cada tipo de imágenes, hay una forma de escribir HTML para que el navegador lo interprete y pueda mostrarnos elementos visuales en la pantalla. Definimos una forma para comprimir un archivo.
 
-## Cómo funciona internet
+## 2. Cómo funciona internet
 
 ### Puertos y protocolos de red
 
@@ -227,7 +227,7 @@ Un punto neutro o punto de intercambio de Internet (_en inglés IXP, Internet Ex
 
 El propósito principal de un punto neutro es permitir que las redes se interconecten directamente, a través de la infraestructura, en lugar de hacerlo a través de una o más redes de terceros. Las ventajas de la interconexión directa son numerosas, pero las razones principales son el costo, la latencia y el ancho de banda.
 
-(Mapa IXPs)[https://www.internetexchangemap.com/]
+[Mapa IXPs](https://www.internetexchangemap.com/)
 
 ### Cómo funciona la velocidad en internet
 
@@ -282,3 +282,23 @@ A un grupo de tecnologías se les conoce como Stack
 4.- Por último se cargan los assets de nuestro sitio web y es aquí donde se descargan imágenes, sonidos, etc.
 
 La cookies son datos guardados en variables y van en el request y en el response del servidor. Las cookies pesan, entonces es importante limitarlas para no afectar la velocidad de las peticiones.
+
+## 3. Sistemas Operativos
+
+Un Sistemas Operativo es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software, ejecutándose en modo privilegiado respecto de los restantes (aunque puede que parte de él se ejecute en espacio de usuario).
+
+### Diferencias entre Sistemas Operativos
+
+Los tres sistemas operativos mas habituales son Windows, MAC OS y Linux. Windows funciona en ordenadores con procesadores Intel y AMD que son los más comunes, MAC OS lo hace únicamente en los ordenadores de Apple y Linux funciona en ambas plataformas, aunque está mejor preparado para la primera.
+
+**Windows**
+
+Windows es el estándar de facto que cubre la gran mayoría de necesidades del usuario medio. Ya sea para escribir documentos, navegar por Internet, escuchar música, ver películas, retocar fotografías digitales o disfrutar de los últimos juegos. Windows es fácil de usar y configurar, sin necesidad de poseer conocimientos informáticos avanzados. Además, casi la totalidad de los programas que se comercializan disponen de una versión para windows; sin embargo, tiene fama de ser inestable ya que los bloques y cuelgues son frecuentes.
+
+**MAC OS**
+
+Es considerado por muchos expertos el sistema operativo más sencillo de utilizar, más innovador y de estética más cuidada. Su última versión, MAC OS X, es radicalmente distinta a las anteriores. Con ella ha ganado en estabilidad, seguridad y ausencia de virus. El número de programas disponibles para esta plataforma (sobre todo, juegos) sigue sin ser tan alto como el de Microsoft, aunque cumple las necesidades de cualquier usuario doméstico o profesional multimedia. Este sistema tiene su punto fuerte es en la producción y edición de música, fotografías y videos.
+
+**Linux**
+
+Es el sistema preferido de muchos profesionales de la informática y de Internet. Ofrece potencia, estabilidad y seguridad contra virus y sirve para realizar cualquier trabajo. La colección de programas en algunas áreas (como los juegos o las aplicaciones multimedia) es aún escasa o de poca calidad, aunque mejora día a día. Linux es un sistema que ha sido desarrollado por programadores de todo el mundo es por ello que es libre y gratuito.
