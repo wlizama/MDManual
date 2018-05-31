@@ -211,3 +211,20 @@ La manera mas facil de ver si una IP es clase A, B o C es utilizando la mascara 
 Pero, tambien existe el metodo de máscara de subred variable, la cual es muy util para segmentar una red ip con mascara de red estandar.
 
 Toda seccion representada por un 0 en la mascara de red va a ser destinada a host o clientes y las que estan representadas por 255 son la destinada a la red.
+
+### Cables submarinos, antenas y satelites en Internet
+
+La mayoría de personas imaginan que el acceso a Internet consiste en conexiones satelitales, lo cual es un error, pues los satélites están destinados sólo para áreas remotas. Internet funciona a partir de cables que atraviesan diferentes lugares del mundo.
+
+Cuando usas tu computadora o dispositivo, este se conecta a un ISP o un prestador de servicios de Internet (ese a quién le pagas tu factura). De ahí, la conexión con diferentes puntos en el mundo a través de cables submarinos, que pueden ser de fibra óptica o cobre.
+
+Estos cables pueden comenzar en una ciudad como Nueva York y terminar en Japón y aunque no parezca, la red de Internet un poco frágil pues los cables pueden romperse por diferentes causas, como las anclas de los barcos.
+
+
+**IXP**
+
+Un punto neutro o punto de intercambio de Internet (_en inglés IXP, Internet Exchange Point_) es una infraestructura física a través de la cual los Proveedores de Servicios de Internet (PSI o ISP, por sus siglas en inglés) intercambian el tráfico de Internet entre sus redes. 
+
+El propósito principal de un punto neutro es permitir que las redes se interconecten directamente, a través de la infraestructura, en lugar de hacerlo a través de una o más redes de terceros. Las ventajas de la interconexión directa son numerosas, pero las razones principales son el costo, la latencia y el ancho de banda.
+
+(Mapa IXPs)[https://www.internetexchangemap.com/]
