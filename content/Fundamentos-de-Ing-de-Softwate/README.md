@@ -302,3 +302,33 @@ Es considerado por muchos expertos el sistema operativo más sencillo de utiliza
 **Linux**
 
 Es el sistema preferido de muchos profesionales de la informática y de Internet. Ofrece potencia, estabilidad y seguridad contra virus y sirve para realizar cualquier trabajo. La colección de programas en algunas áreas (como los juegos o las aplicaciones multimedia) es aún escasa o de poca calidad, aunque mejora día a día. Linux es un sistema que ha sido desarrollado por programadores de todo el mundo es por ello que es libre y gratuito.
+
+### Permisos, niveles de procesos y privilegios de ejecución
+
+En la administración de archivos la capacidad de utilizar permisos te permite definir entre las siguientes características, los permisos existen en todos los sistemas operativos de diversas formas y se crean con las siguientes opciones:
+
+Read (_r_): permisos de escritura.
+
+Write (_w_): permisos de escritura.
+
+Execute (_x_): permisos de ejecución.
+
+Una manera facil de entender el sistema de permisos es el siguiente, tengamos en cuenta que usualmente vemos comandos parecidos a ``chmod 777``, estos 3 números significan los 3 grupos de permisos de los cuales comunes: admin, team y public.
+
+Bien la representacion de estos números se toma en un sistema octal, teniendo en cuenta lo siguiente,
+
+  El número 7 representa permisos de escritura, lectura y ejecucion.
+  
+  El número 6 representa lectura y escritura.
+  
+  El número 5 representa lectura y ejecucion.
+  
+  El número 4 representa lectura.
+  
+  El número 3 representa escritura y ejecucion.
+  
+  El número 2 representa escritura.
+  
+  El número 1 representa ejecucion.
+  
+  El número 0 representa ningun permiso.
