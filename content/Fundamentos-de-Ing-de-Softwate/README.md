@@ -228,3 +228,17 @@ Un punto neutro o punto de intercambio de Internet (_en inglés IXP, Internet Ex
 El propósito principal de un punto neutro es permitir que las redes se interconecten directamente, a través de la infraestructura, en lugar de hacerlo a través de una o más redes de terceros. Las ventajas de la interconexión directa son numerosas, pero las razones principales son el costo, la latencia y el ancho de banda.
 
 (Mapa IXPs)[https://www.internetexchangemap.com/]
+
+### Cómo funciona la velocidad en internet
+
+La mayoría de los **ISPs** (_Internet Service Providers_) nos venden ancho de banda en Mb y debemos tener claro qué significa, ya que existe una importante diferencia entre Megabits y MegaBytes.
+
+Otro aspecto importante en el funcionamiento del internet es la velocidad. A menudo confundimos la velocidad con el ancho de banda por eso debemos tener en claro que la velocidad del internet se mide obteniendo el tiempo que le toma a la información viajar a través de un punto a otro en milisegundos, a esto se le conoce como ping o latencia.
+
+La velocidad de nuestro internet se mide en la cantidad de bits no bytes que transmite por segundo
+
+La forma de medir la velocidad de un ping es divididiendo la distancia entre un punto de conexión y otro entre la velocidad de la luz ``300 km/ms``
+
+Distancia entre Mountain View y Madrid 9344 km
+
+``(9344 km)/(300 km/ms) = 31.14 ms``
