@@ -388,6 +388,40 @@ En un vídeo hay muchos factores para comprimir, un vídeo es si es una serie de
 Por esto en los vídeos se utilizan varias formas de compresión
 
 **Contenedores**: es el formato es que se guarda el vídeo como .avi, .mp4, .flv, .mpg, .webm
+
 **Codecs**: es un algoritmo que comprime un vídeo y lo descomprime como divx, h.264, ogg, vp9
+
 **Protocolos**: es la forma de transmitir los vídeos como RTMP
+
 **Keyframes**: cada cierta cantidad de frame existe un frame que vuelve a definir todo el área
+
+### Cómo funciona .zip: Árboles binarios
+
+Cómo funciona la compresión de un archivo sin perder ningún valor de ese archivo.
+
+Los arboles binarios nos permiten comprimir sin perder información, en este caso vamos a comprimir "amo leer panama paper".
+
+1. Debemos ver cuantas veces se repite cada letra
+
+```
+  a = 5
+  m = 2
+  r = 2
+  s = 1
+  o = 1
+    = 3
+  p = 3
+  l = 1
+  e = e
+  n = 1
+```
+
+2. La letra con más frecuencia va a estar en el primer punto de la rama, cuando se encuentra es 1 y si no se encuentra es cero
+
+3. Con esto debemos volver a construir nuestro mensaje siguiendo eárbolol, esto quedaría
+
+```
+  1 0001 0000001 01 00000001 001 001 000001 01 0001 1 0000000001 1 00001 1 01 0001 1 0001 001 000001 000000001
+```
+
+Aunque en este ejemplo no se reduce drasticamente el tamaño, imagina parrafos más grandes u otro tipo de archivos.
