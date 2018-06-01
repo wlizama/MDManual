@@ -21,3 +21,37 @@ El proceso de desarrollo tradicional tiene etapas muy marcadas, que tienen entra
 + **Mantenimiento y evolución**: Desarrollo + despliegue + mantenimiento, en esta etapa estamos atentos a posible mejoras que se hacen al sistema. En esta etapa el software se mantiene hasta que el software ya deja de ser necesario.
 
 ![image](https://raw.githubusercontent.com/wlizama/MDManual/master/assets/images/proceso-de-desarrollo-software "Etapas del proceso de desarrollo de software")
+
+### Dificultades en el desarrollo de software
+
+En la etapa de **Diseño y Desarrollo** estamos concentrados en encontrar cuáles son los problemas que queremos resolver. Estos problemas los podemos dividir en dos grandes tipos de problemas.
+
+**Esenciales**: Los podemos dividir en 4.
+
+  1. **La complejidad**, cuándo lo que tenemos que resolver es complejo en si mismo. En el caso de adiciones y todas las acciones que conlleven al sistema a ser más complejo.
+
+       _Manejo del problema de complejidad_: No desarrollar: Comprar - OSS
+  
+  2. **La conformidad**, en qué contexto se usa el software y cómo debe adecuarse al mismo. Se incluyen todo lo que le compete. _Ej_: Ambiente, conectividad, impuestos, etc.
+
+       _Manejo del problema de complejidad_: Prototipado rápido, feedback y ciclos rápidos para soluciones pequeñas.
+  
+  3. **Tolerancia al cambio**, posibilidad del cambio en el mismo y que sea responsivo a diferentes contextos.
+       
+       _Manejo del problema de complejidad_: Desarrollo Evolutivo, desarrollos pequeños. Paso a paso pero de manera firme e ir haciendo crecer el software.
+  
+  4. **Invisibilidad**, problemas de tangibilidad nula.
+
+       _Manejo del problema de complejidad_: Grandes diseñadores, Arquitectos que saben abtraer el problema y que realiza soluciones elegantes, de manera simple, con la mejor calidad posible en los componentes que lo necesitan.
+
+**Accidentales**: Está relacionado con la plataforma que vamos a implementar, tecnología, lenguajes, frameworks, integraciones, etc, tienen 3 entornos:
+
+  1. **Lenguajes de alto nivel**, son las complicaciones que surgen al lidiar con los lenguajes que se escogieron para el desarrollo del proyecto. 
+  
+  2. **Multi-procesamiento**, es la necesidad de resolver o atender a varios problemas en un mismo momento.
+  
+  3. **Entornos de programación**, son los problemas que devienen de las herramientas que hemos usado para resolver los problemas entiéndase frameworks compilados librarías etc.
+
+> "Concidero a la especificación, diseño y comprobación del concepto la parte difícil de hacer software. (...) Si esto es cierto, hacer software siempre será difícil. No existe la bala de plata."
+>
+> Del libro _No Silver Bullet_ (Frederick P. Brooks Jr., 1986)
