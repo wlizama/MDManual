@@ -380,3 +380,14 @@ Para tener una calidad de 32 bit la imagen debe pesar 1.9MB para esto podemos co
 - Para representar colores (ultra-reales) de 32 bits: Se necesitan 4 bytes.
 
 **_Nota_**: Sí cada byte tiene 8 bits, entonces; 16 bits es igual a 2 bytes y 32 bits es igual a 4 bytes.
+
+### Videos, contenedores, codecs y protocolos
+
+En un vídeo hay muchos factores para comprimir, un vídeo es si es una serie de fotos vistas muy rápido. por ejemplo si un vídeo tiene 100 frames a 24 frames/segundo y si cada frame pesara 1.9MB el vídeo pesaría más de 100MB por 4 segundos de vídeo.
+
+Por esto en los vídeos se utilizan varias formas de compresión
+
+**Contenedores**: es el formato es que se guarda el vídeo como .avi, .mp4, .flv, .mpg, .webm
+**Codecs**: es un algoritmo que comprime un vídeo y lo descomprime como divx, h.264, ogg, vp9
+**Protocolos**: es la forma de transmitir los vídeos como RTMP
+**Keyframes**: cada cierta cantidad de frame existe un frame que vuelve a definir todo el área
