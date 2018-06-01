@@ -20,7 +20,7 @@ El proceso de desarrollo tradicional tiene etapas muy marcadas, que tienen entra
 
 + **Mantenimiento y evolución**: Desarrollo + despliegue + mantenimiento, en esta etapa estamos atentos a posible mejoras que se hacen al sistema. En esta etapa el software se mantiene hasta que el software ya deja de ser necesario.
 
-![image](https://raw.githubusercontent.com/wlizama/MDManual/master/assets/images/proceso-de-desarrollo-software "Etapas del proceso de desarrollo de software")
+![image](https://raw.githubusercontent.com/wlizama/MDManual/master/assets/images/proceso-de-desarrollo-software.jpg "Etapas del proceso de desarrollo de software")
 
 ### Dificultades en el desarrollo de software
 
