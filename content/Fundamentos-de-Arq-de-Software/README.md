@@ -75,3 +75,25 @@ Es importante que diferenciemos el ROL del puesto de trabajo, hay roles que pued
 **Equipo de desarrollo**  QA / Testing se encargan de la evaluación de nuestro software, comprobar que lo que se esta haciendo es lo que se espera que se haga. Desarrolladores involucrados en la construcción del software. Arquitecto, diseña la solución y analisis de los requerimientos, es un papel mas estrategico. La arquitectura emerja del trabajo de un equipo bien gestionado.
 
 **Gestor del proyecto / facilitador** Llevan al equipo a través del proceso iterativo e incremental, entender lo que pasa con el equipo y motivar el avance en el desarrollo del producto.
+
+## 2. Introducción a la arquitectura de software
+
+### Objetivos del arquitecto
+
+Cada uno de los stakeholder tiene que ser conectado por el Arquitecto con sus requerimientos.
+
+**Stakeholder -> Arquitecto -> Requerimientos = Implementaciónes en el Sistema.**
+
+Los Requerimientos de cada stakeholder afectan de forma única el sistema.
+
+**Cliente**: Entrega a tiempo y dentro del presupuesto.
+
+**Manager**: Permite equipos independientes y comunicación clara.
+
+**Dev**: Que sea fácil de implementar y de mantener.
+
+**Usuario**: Es confiable y estará disponible cuando lo necesite.
+
+**QA**: Es fácil de comprobar.
+
+La unión de todos estos requerimientos (funcionales o no funcionales) van a llevar al arquitecto a tomar decisiones que impacten sobre el sistema.
