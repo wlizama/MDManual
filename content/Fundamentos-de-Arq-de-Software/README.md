@@ -97,3 +97,13 @@ Los Requerimientos de cada stakeholder afectan de forma única el sistema.
 **QA**: Es fácil de comprobar.
 
 La unión de todos estos requerimientos (funcionales o no funcionales) van a llevar al arquitecto a tomar decisiones que impacten sobre el sistema.
+
+### Entender el problema
+
+**El espacio del problema**
+
+Detalla que es lo que se va a resolver sin entrar en detalles del "cómo".
+
+**El espacio de la solución**
+
+Brinda el detalle del "cómo", reflejando los detalles del problema detectado, evitando resolver problemas que no se quiere resolver.
