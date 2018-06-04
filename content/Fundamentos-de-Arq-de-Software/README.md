@@ -1,5 +1,11 @@
 # Fundamentos de Arquitectura de Software
 
+>_"La estructura del sistema, compuesta por elementos de software, sus propiedades visibles y sus relaciones"_
+
+**Ley de Conway***
+
+>_"Cualquier pieza de software refleja la estructura organizacional que la produjo.""_
+
 ## 1. El proceso de desarrollo de software
 
 ### Etapas del proceso de desarrollo de software
