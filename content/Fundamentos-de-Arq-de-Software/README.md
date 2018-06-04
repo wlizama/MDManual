@@ -55,3 +55,17 @@ En la etapa de **Diseño y Desarrollo** estamos concentrados en encontrar cuáles 
 > "Concidero a la especificación, diseño y comprobación del concepto la parte difícil de hacer software. (...) Si esto es cierto, hacer software siempre será difícil. No existe la bala de plata."
 >
 > Del libro _No Silver Bullet_ (Frederick P. Brooks Jr., 1986)
+
+### Roles
+
+Es importante que diferenciemos el ROL del puesto de trabajo, hay roles que pueden ser desarrollados por la misma persona.
+
+**Experto del dominio (stakeholders)** En una metodologia tradicional, es la persona a la que acudimos para entender las necesidades del negocio. En metodologias Agiles.
+
+**Analista** funcional/de negocio, la persona responsable de definir los requerimientos que van a llevar al software a u buen puerto. En el caso de Agiles el dueño del producto es quien arma las historias y que nos acompaña en el proceso de construcción del software.
+
+**Administrador de sistemas / DevOps** Es el rol de operaciones y desarrollo, son las personas responsables de la infraestructura que alojara nuestra aplicación.
+
+**Equipo de desarrollo**  QA / Testing se encargan de la evaluación de nuestro software, comprobar que lo que se esta haciendo es lo que se espera que se haga. Desarrolladores involucrados en la construcción del software. Arquitecto, diseña la solución y analisis de los requerimientos, es un papel mas estrategico. La arquitectura emerja del trabajo de un equipo bien gestionado.
+
+**Gestor del proyecto / facilitador** Llevan al equipo a través del proceso iterativo e incremental, entender lo que pasa con el equipo y motivar el avance en el desarrollo del producto.
