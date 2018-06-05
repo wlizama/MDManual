@@ -107,3 +107,29 @@ Detalla que es lo que se va a resolver sin entrar en detalles del "cómo".
 **El espacio de la solución**
 
 Brinda el detalle del "cómo", reflejando los detalles del problema detectado, evitando resolver problemas que no se quiere resolver.
+
+### Requerimientos
+
+Una vez que entendemos el espacio del problema y el espacio de la solución, vamos a entrar a analizar los requerimientos de nuestro sistema.
+
+**Requerimientos de producto:**
+
+Los podemos dividir en 3
+
+- Capa de requerimientos de negocio, son reglas del negocio que alimentan los requerimientos del negocio.
+
+- Capa de usuario, tienen que ver en cómo el usuario se desenvuelve usando el sistema, qué atributos del sistema se deben poner por encima de otros.
+
+- Capa Funcional, se ven alimentados por requerimientos del sistema, ¿qué cosas tienen que pasar operativamente?
+
+- Esta capa se ve afectada por las restricciones que pueden afectar operativamente a lo funcional.
+
+**Requerimientos de proyecto:**
+
+Tienen que ver más con el rol de gestor de proyectos, se usan para dar prioridad a los requerimientos del producto. Estos dos mundos de requerimientos hablan de las prioridades del equipo de trabajo del proyecto.
+
+**Requerimientos de producto:**
+
+  + **Requerimientos funcionales**: Tienen que ver con las historias de usuarios, que hablan sobre específicamente lo que hace el sistema, por ejemplo que usuario ingrese al sistema.
+
+  + **Requerimientos no funcionales**: son aquellos que agregan cualidades al sistema, por ejemplo que el ingreso de ese usuario sea de manera segura.
