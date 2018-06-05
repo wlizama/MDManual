@@ -98,6 +98,8 @@ Los Requerimientos de cada stakeholder afectan de forma única el sistema.
 
 La unión de todos estos requerimientos (funcionales o no funcionales) van a llevar al arquitecto a tomar decisiones que impacten sobre el sistema.
 
+## 3. Análisis de requerimientos
+
 ### Entender el problema
 
 **El espacio del problema**
@@ -149,3 +151,19 @@ Intenta tratar los riesgos con posibles escenarios de fracaso y que pasaría en c
 + **Conocimiento del dominio**: Riesgo prototípico, son aquellos que podemos atacar de forma estándar.
 
 Una vez que tenemos los riesgos identificados, debemos priorizarlos, recuerda que no es necesario mitigarlos todos, debemos siempre tener en cuenta y dar prioridad a aquellos riesgos que ponen en peligro la solución que se esta construyendo.
+
+### Restricciones
+
+Las restricciones en el contexto de un proceso de desarrollo de software se refiere a las restricciones que limitan las opciones de diseño o implementaciones disponibles al desarrollar.
+
+Los _StakeHolders_, nos pueden poner limitaciones relacionadas con su contexto de negocio, ejemplo:
+
++ **Limitaciones legales** la implementación de un producto podría tener restricciones en algún país, y esto seria una limitante a considerar para el desarrollo del producto.
+
++ **Limitaciones técnicas** relacionadas con integraciones con otros sistemas.
+
++ **El ciclo de vida del producto** agregará limitaciones al producto, por ejemplo a medida que avanza el proceso de implementación el modelo de datos va a ser más difícil de modificar.
+
+**Nota:**
+
+_El arquitecto debe balancear entre los requerimiento y las restricciones._
