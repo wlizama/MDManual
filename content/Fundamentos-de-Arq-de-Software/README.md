@@ -167,3 +167,13 @@ Los _StakeHolders_, nos pueden poner limitaciones relacionadas con su contexto d
 **Nota:**
 
 _El arquitecto debe balancear entre los requerimiento y las restricciones._
+
+## 4. Estilos de arquitectura
+
+### Estilos: Llamado y retorno
+
+Cada uno de los componentes hacen invocaciones a los componentes externos y estos retornan información. Cada componente hace un llamado y espera una respuesta.
+
+**Programa y subrutinas** Instrucciones secuenciales que el programa ejecutba una por una. Luego se hacian instrucciones de salto, de aqui surgieron las funciones que son bloques de codigo que podemos invocar en cualquier momento.
+
+**Orientado a objetos** la abstracción es mayor en comparación con el paradigma anterior, se usa para aplicaciones que ya sabemos que vamos a usar durante mucho tiempo. La abstracción ya no es la subrutina, ahora tenemos objetos que se hacen llamados entre si y esperan respuestas.
