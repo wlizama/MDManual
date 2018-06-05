@@ -133,3 +133,19 @@ Tienen que ver más con el rol de gestor de proyectos, se usan para dar prioridad
   + **Requerimientos funcionales**: Tienen que ver con las historias de usuarios, que hablan sobre específicamente lo que hace el sistema, por ejemplo que usuario ingrese al sistema.
 
   + **Requerimientos no funcionales**: son aquellos que agregan cualidades al sistema, por ejemplo que el ingreso de ese usuario sea de manera segura.
+
+### Riesgos
+
+Los riesgos son importantes para priorizarlos y atacarlos en orden y asegurar que las soluciones arquitectónicas que propongamos resuelvan los problemas más importantes.
+
+Intenta tratar los riesgos con posibles escenarios de fracaso y que pasaría en caso de que ese riesgo se haga real.
+
+**Identificación de los riesgos:**
+
++ **Toma de Requerimientos (Requerimientos funcionales)**: Se calificará su riesgo de acuerdo a su dificultad o complejidad.
+
++ **Atributos de calidad (Requerimientos NO funcionales)**: Se calificará su riesgo de acuerdo a la incertidumbre que genere, cuanto mas incertidumbre hay, mas alto es el riesgo.
+
++ **Conocimiento del dominio**: Riesgo prototípico, son aquellos que podemos atacar de forma estándar.
+
+Una vez que tenemos los riesgos identificados, debemos priorizarlos, recuerda que no es necesario mitigarlos todos, debemos siempre tener en cuenta y dar prioridad a aquellos riesgos que ponen en peligro la solución que se esta construyendo.
