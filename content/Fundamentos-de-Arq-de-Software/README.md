@@ -174,6 +174,18 @@ _El arquitecto debe balancear entre los requerimiento y las restricciones._
 
 Cada uno de los componentes hacen invocaciones a los componentes externos y estos retornan información. Cada componente hace un llamado y espera una respuesta.
 
-**Programa y subrutinas** Instrucciones secuenciales que el programa ejecutba una por una. Luego se hacian instrucciones de salto, de aqui surgieron las funciones que son bloques de codigo que podemos invocar en cualquier momento.
+**Programa y subrutinas** Instrucciones secuenciales que el programa ejecutaba una por una. Luego se hacian instrucciones de salto, de aqui surgieron las funciones que son bloques de codigo que podemos invocar en cualquier momento.
 
 **Orientado a objetos** la abstracción es mayor en comparación con el paradigma anterior, se usa para aplicaciones que ya sabemos que vamos a usar durante mucho tiempo. La abstracción ya no es la subrutina, ahora tenemos objetos que se hacen llamados entre si y esperan respuestas.
+
+### Estilos: Flujo en datos
+
+Se basa en un patrón tuberías y filtros. Este consta de un conjunto de componentes denominados _"filtros"_, conectados entre sí por _"tuberías"_, que transmiten los datos desde un componente al siguiente. Cada filtro trabaja de manera independiente de los componentes que se encuentren situados antes o después de el.
+
+### Estilos: Centradas en datos
+
+**Estilo de pizarrón** permite centralizar los datos en una sola base de datos, alimentada por varias partes involucradas, una vez que todas las partes interesadas ingresan los datos, el sistema centralizado genera una salida.
+
+**Estilo Centralizado** en este caso el sistema posee los datos centralizados en una base de datos, y hay dos (02) sistemas que comparten la misma base de datos.
+
+**Estilo Experto** en este caso el sistema que centraliza los datos, tiene la capacidad de entender los datos y consultas que realiza el cliente, generando salidas inteligentes. (inteligencia artificial).
