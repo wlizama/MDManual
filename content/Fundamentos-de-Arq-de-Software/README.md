@@ -201,3 +201,37 @@ Se basa en un patrón tuberías y filtros. Este consta de un conjunto de component
 El _Enterprise Services Busses_, sabe que proceso tiene que llevar a cabo para lograr su cometido, dando a los componentes la información que éstos requieran. El ESB, es inteligente.
 
 Es necesario tener en cuenta que cualquier actualización del sistema, mantiene conectado a los componentes que brindan servicios de consulta.
+
+### Comparando estilos
+
+#### Estilos Monolíticos:
+
++ Es más fácil darle prioridad a la eficiencia de las comunicaciones.
+
++ Son más fáciles de probar.
+
++ Curva de aprendizaje son más fáciles, todas las piezas estan en el mismo lugar. (Los microservicios son fáciles de entender).
+
++ La capacidad de modificación es más fácil.
+
++ La modularización es más fácil de romper, por lo que es más fácil no garantizar esa separación a largo plazo.
+
++ En la usabilidad, es mas costoso, porque habría que respaldar toda la aplicación y no pequeños microservicios.
+
++ Puede ser un desafío para el despliegue, porque habría que garantizar que toda la aplicación o sistema se adapta a ese contexto específico.
+
+#### Estilos Distribuidos:
+
++ Es más fácil darle prioridad a la eficiencia de las comunicaciones.
+
++ Para hacer una prueba de principio a fin hay que tener todos los componentes disponibles .
+
++ La curva de aprendizaje es más difícil, porque habría que entender todas las piezas de los componentes.
+
++ Al ser desplegadas independientemente, son versionadas independientemente, y esta variación de serviones hace mas complejo su modificación.
+
++ La modularidad, es más fácil porque los componentes que son desplegados independiente.
+
++ La disponibilidad se pueden tener multiples copias del sistema. por lo que este disponible es mas barato.
+
++ La adaptabilidad es más fácil en el despliegue porque los componente se despliegan independientemente en múltiples contextos.
