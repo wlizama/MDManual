@@ -189,3 +189,15 @@ Se basa en un patrón tuberías y filtros. Este consta de un conjunto de component
 **Estilo Centralizado** en este caso el sistema posee los datos centralizados en una base de datos, y hay dos (02) sistemas que comparten la misma base de datos.
 
 **Estilo Experto** en este caso el sistema que centraliza los datos, tiene la capacidad de entender los datos y consultas que realiza el cliente, generando salidas inteligentes. (inteligencia artificial).
+
+### Estilos: Componentes independientes
+
+**Invocación implícita**: Suele ser basada en eventos, habla de como hacer para que nuestras aplicaciones se manden mensajes entre si. Cuando se tiene eventos, naturalmente se tienen componentes y un bus de eventos donde los componentes van a publicar eventos y luego el bus de eventos los va a notificar. Aquí se encuentra **Publicar** y **Suscribir** que trata de un componente que publica y otro componente que suscribe, todo a través del bus de eventos. También existe el **Enterprise Service Bus** tiene componentes registrados los cuales se pueden comunicar con el bus, los componentes no se conocen entre si, pero están programados para cumplir con su objetivo.
+
+**Invocación explícita**: Tiene que ver con el desarrollo de componentes que si se conocen entre si, pero que sean desarrollado independientemente. Aquí se encuentra Orientado al Servicio en donde todos los componentes se registran al _"Registro central"_ y después indican donde comunicarse.
+
+**ARQUITECTURA ORIENTADAS A SERVICIOS**:
+
+El _Enterprise Services Busses_, sabe que proceso tiene que llevar a cabo para lograr su cometido, dando a los componentes la información que éstos requieran. El ESB, es inteligente.
+
+Es necesario tener en cuenta que cualquier actualización del sistema, mantiene conectado a los componentes que brindan servicios de consulta.
