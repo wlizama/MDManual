@@ -48,4 +48,4 @@
 
 + Garantizar la privacidad de datos de consumo
 
-Con todo esto se decide que el estilo arquitectónico en la estructura cliente servidor pasa su transacciones en lote secuencial a los reportes teniendo en 
+Con todo esto se decide que el estilo arquitectónico en la estructura cliente servidor pasa su transacciones en lote secuencial a los reportes teniendo en cuenta el costo que supone presentar reportes dentro del aplicativo.
