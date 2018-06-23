@@ -4,6 +4,12 @@ Java tiene la filosofía: _**Write Once Run Anywhere**_ **WORA**, quiere decir q
 
 ## 1. Introducción a Java
 
+### ¿Qué es Java?
+
+Java es un lenguaje de programación de alto nivel, esto significa que tiene menos contacto con el hardware.
+
+Tiene como caracteristiacas resaltantes:
+
 + **Simple**
 
     + Basado en **C**, la sitaxis es muy parecida a **C** y **C++** (OOP)
@@ -47,3 +53,18 @@ Java tiene la filosofía: _**Write Once Run Anywhere**_ **WORA**, quiere decir q
     + Gracias a la Maquina Virtual (JVM)
     
     + El código no esta expuesto a nadie ya que a la hora de compilar lo convierte a ByteCode(archivo _.class_) y a la hora de correr el programa no lee el codigo fuente.
+
+
+### El origen de Java
+
+Java nació en 1991 su creador es [James Gosling](https://es.wikipedia.org/wiki/James_Gosling), Java fue adquirido por sus microsystems cuando James Gosling creó el lenguaje.
+
+_¿Porqué se dio la necesidad de crear este lenguaje?_ Por la comunicación entre dispositivos, se requiería que los dispositivos tuvieran un software que podemos controlar, java surgió para satisfacer la necesidad de portabilidad de los dispositivos.
+
+Java es un lenguaje que se originó para ser ampliamente portable.
+
+En el año 2009 Oracle compró a Java, esto hizo que el sistema de certificaciones creciera.
+
+Java SE (es la base de Java).
+
+Java se utiliza muchísimo en el backend de cualquier tipo de aplicación, para esto se usa la versión Enterprise Edition.
