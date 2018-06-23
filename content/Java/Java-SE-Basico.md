@@ -68,3 +68,24 @@ En el año 2009 Oracle compró a Java, esto hizo que el sistema de certificacion
 Java SE (es la base de Java).
 
 Java se utiliza muchísimo en el backend de cualquier tipo de aplicación, para esto se usa la versión Enterprise Edition.
+
+
+## Java en Linux
+
+Para instalar solo se debe ejecutar los siguientes comandos en terminal
+
+```sh
+
+  sudo apt-get update
+
+  sudo add-apt-repository ppa:linuxuprising/java
+
+  sudo apt update
+
+  sudo apt install oracle-java10-installer # version 10
+
+  java -version
+
+  javac -version
+
+```
