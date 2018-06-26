@@ -124,3 +124,17 @@ mínimo y máximo:
 **char** 16 bits ‘\u0000’  ‘\uffff’
 
 _Nota_: un dato de tipo carácter se puede escribir entre comillas simples, por ejemplo ‘a’, o también indicando su valor Unicode, por ejemplo ‘\u0061’.
+
+### Naming en Java
+
+Reglas que Java tiene para la declaración de variables:
+
++ Java es sensible a mayúsculas y minúsculas.
+
++ Pueden comenzar con ``_`` o ``$``
+
++ No pueden comenzar con numeros
+
++ Las constantes se escriben en Mayúsculas
+
++ CamelCase -Uper Camel Case para los nombres de las clases y nombres de archivos, es decir que la primera letra que escriba debe ser mayúscula. Lower Camel Case - para nombres de variables, objetos y metodos, quiere decir que la primera letra que escriba debe ser en minúscula.
