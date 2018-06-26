@@ -138,3 +138,36 @@ Reglas que Java tiene para la declaración de variables:
 + Las constantes se escriben en Mayúsculas
 
 + CamelCase -Uper Camel Case para los nombres de las clases y nombres de archivos, es decir que la primera letra que escriba debe ser mayúscula. Lower Camel Case - para nombres de variables, objetos y metodos, quiere decir que la primera letra que escriba debe ser en minúscula.
+
+
+### Cast de variables
+
+El casteo (casting) es un procedimiento para transformar una variable primitiva de un tipo a otro, o transformar un objeto de una clase a otra clase siempre y cuando haya una relación de herencia entre ambas.
+
+Existen distintos tipos de casteo (casting) de acuerdo a si se utilizan tipos de datos o clases.
+
+**Casteo Implícito (Widening Casting)**
+
+El casteo implícito radica en que no se necesita escribir código para que se lleve a cabo. Ocurre cuando se realiza una conversión ancha – _widening casting_ – es decir, cuando se coloca un valor pequeño en un contenedor grande.
+
+
+```java
+  //Define una variable de tipo int  con el valor 100
+  int numeroEntero = 100;
+  
+  //Define una variable de tipo long a partir de un int
+  long numeroLargo = numero;
+```
+
+**Casteo Explicito (Narrowing Casting)**
+
+El casteo explicito se produce cando se realiza una conversión estrecha – _narrowing casting_ – es decir, cuando se coloca un valor grande en un contenedor pequeño. Son susceptibles de perdida de datos y deben realizarse a través de código fuente, de forma explicita.
+
+```java
+  //Define una variable del tipo int con el valor 250
+  int numeroEntero = 250;
+  
+  //Define una variable del tipo short y castea la variable numero
+  short s = (short) numero;
+
+```
