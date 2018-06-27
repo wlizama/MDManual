@@ -2,7 +2,7 @@
 
 Java tiene la filosofía: _**Write Once Run Anywhere**_ **WORA**, quiere decir que cualquier código que escribas lo escribirás solo una vez pero lo podras ejecutar siempre que lo necesites.
 
-## 1. Introducción a Java
+## Introducción a Java
 
 ### ¿Qué es Java?
 
@@ -90,7 +90,7 @@ Para instalar solo se debe ejecutar los siguientes comandos en terminal
 
 ```
 
-## 2. Tipos de Datos
+## Tipos de Datos
 
 En Java existen ocho tipos de datos primitivos que se pueden clasificar en:
 
@@ -170,4 +170,48 @@ El casteo explicito se produce cando se realiza una conversión estrecha – _na
   //Define una variable del tipo short y castea la variable numero
   short s = (short) numero;
 
+```
+
+## Control de Flujo
+
+### La sentencia _if/else_
+
+La sentencia **if/else** nos permite ejecutar un bloque de código o no, dependiendo de una condición que se evalúa justo antes de este bloque.
+Esta condición se evalúa a un valor booleano, es decir, su resultado solo puede tomar dos valores, ``true`` o ``false``.
+
+```java
+
+  if (num1 > num2) {
+    System.out.println("Si es mayor");
+  }
+  elseif (num1 == num2) {
+    System.out.println("Son iguales");
+  }
+  else {
+    System.out.println("No, es menor");
+  }
+```
+
+### La sentencia _switch_
+
+Esta sentencia permite elegir múltiples caminos a seguir por el flujo de ejecución de nuestro programa.
+En este caso, el camino a seguir se selecciona basándose en el valor de una expresión que se evalúa a un valor entero
+
+```java
+
+  int mes = 8;
+  switch (mes) {
+    case 1:
+      System.out.println("Enero");
+      break;
+    case 2:
+      System.out.println("Febrero");
+      break;
+    case 8:
+      System.out.println("Agosto");
+      break;
+    default:
+      System.out.println("Mes incorrecto");
+      break;
+  }
 ```
