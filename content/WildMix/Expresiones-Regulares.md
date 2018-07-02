@@ -57,3 +57,9 @@ Ejemplos:
 - ``\d+[a-z]``  Encuentra todo lo que tenga uno o más dígitos y al final tiene una letra.
 
 - ``\d*[a-z]``  Encuentra todo lo que teniendo dígitos o no, al final tiene una letra.
+
+## Los Contadores {n,m}
+
+Donde ``n`` y ``m`` son enteros positivos y ``n <= m``. Coincide con al menos ``n`` y no más de ``m`` ocurrencias de la expresión. Si se omite ``m``, no tiene limite de máximo.
+
+Por ejemplo, ``/a{1,3}/`` no coincide con "**cndy**", pero sí con la '**a**'' en "**candy**", las primeras 2 a en "**caandy**" y las primeras 3 a en "**caaaaaaandy**". Note que en "**caaaaaaandy**", la coincidencia es "**aaa**", aunque la cadena contenga más a en ella.
