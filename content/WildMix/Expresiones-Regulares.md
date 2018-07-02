@@ -63,3 +63,13 @@ Ejemplos:
 Donde ``n`` y ``m`` son enteros positivos y ``n <= m``. Coincide con al menos ``n`` y no más de ``m`` ocurrencias de la expresión. Si se omite ``m``, no tiene limite de máximo.
 
 Por ejemplo, ``/a{1,3}/`` no coincide con "**cndy**", pero sí con la '**a**'' en "**candy**", las primeras 2 a en "**caandy**" y las primeras 3 a en "**caaaaaaandy**". Note que en "**caaaaaaandy**", la coincidencia es "**aaa**", aunque la cadena contenga más a en ella.
+
+## El caso de (?) como delimitador
+
+Busca el carácter precedente 0 (cero) o 1 (una) vez. Es equivalente a ``{0,1}``.
+
+Por ejemplo, la expresión ``/e?le?/`` encontrará la subcadena '**el**' en la cadena "**angel**" y la subcadena '**le**' en la cadena "**abominable**" y también el carácter '**l**' en la cadena "**muslo**".
+
+Si se utiliza inmediatamente después que cualquiera de los cuantificadores ``*, +, ?, o {}``, hace que el cuantificador no sea expansivo _(encontrando la menor cantidad posible de caracteres), en comparación con el valor predeterminado, que sí es expansivo (encontrando tantos caracteres como le sea posible)_. Por ejemplo, aplicando la expresión ``/\d+/`` a la cadena "123abc" encuentra "123". Pero aplicando la expresión ``/\d+?/`` a la misma cadena, encuentra solamente el carácter "**1**".
+
+También se utiliza en coincidencias previsivas.
