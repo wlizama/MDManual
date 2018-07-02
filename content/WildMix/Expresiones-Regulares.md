@@ -43,3 +43,17 @@ Podemos usar ``\W`` para encontrar justo lo contrario, todos los caracteres que 
 ``\s`` encuentra todos los espacios (los saltos de línea también son espacios).
 
 Podemos usar ``\S`` para encontrar justo lo contrario, todo lo que no son espacios.
+
+## Los delimitadores: \+, \*, ?
+
+``*`` Cero o muchos
+
+``+`` Uno o muchos
+
+``?`` Cero o uno
+
+Ejemplos:
+
+- ``\d+[a-z]``  Encuentra todo lo que tenga uno o más dígitos y al final tiene una letra.
+
+- ``\d*[a-z]``  Encuentra todo lo que teniendo dígitos o no, al final tiene una letra.
