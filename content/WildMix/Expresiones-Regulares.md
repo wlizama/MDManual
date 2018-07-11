@@ -122,6 +122,20 @@ También se utiliza en coincidencias previsivas.
 ``\B`` Marca la posición entre dos caracteres alfanuméricos o dos no-alfanuméricos.
 
 
+## Expresiones comunes
+
+**Validación de URL**
+
+```
+  https?:\/\/[\w\-\.]+\.\w{2,6}\/?\S*
+```
+
+**e-mail**
+
+```
+  [\w\._]{5,30}\+?[\w]{0,10}@[\w\.\-]{3,}\.\w{2,5}
+```
+
 ---
 
 ## Enlaces de interés
