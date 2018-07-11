@@ -79,3 +79,14 @@ También se utiliza en coincidencias previsivas.
 ``^`` Coincide con el comienzo de la cadena, o el comienzo de una línea si la bandera multilínea **(m)** está habilitada
 
 ``$`` Coincide con el final de la cadena, o al final de una línea si la bandera multilínea **(m)** está habilitada
+
+
+---
+
+## Enlaces de interés
+
++ [Leer, construir y testear expresiones regulares](https://regexr.com/)
+
++ [Testear online expresiones regulares](https://regex101.com/)
+
++ [Expresiones regulares https://developer.mozilla.org](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions)
