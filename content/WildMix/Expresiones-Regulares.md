@@ -81,6 +81,47 @@ También se utiliza en coincidencias previsivas.
 ``$`` Coincide con el final de la cadena, o al final de una línea si la bandera multilínea **(m)** está habilitada
 
 
+## Clases comunes
+
+``\t`` Representa un tabulador.
+
+``\r`` Representa el _"retorno de carro"_ o _"regreso al inicio"_ o sea el lugar en que la línea vuelve a iniciar.
+
+``\n`` Representa la _"nueva línea"_ el carácter por medio del cual una línea da inicio. Es necesario recordar que en Windows es necesaria una combinación de ``\r\n`` para comenzar una nueva línea, mientras que en Unix solamente se usa ``\n`` y en _Mac\_OS clásico_ se usa solamente ``\r``.
+
+``\a`` Representa una _"campana"_ o _"beep"_ que se produce al imprimir este carácter.
+
+``\e`` Representa la tecla <kbd>Esc</kbd> o <kbd>Escape</kbd>
+
+``\f`` Representa un salto de página
+
+``\v`` Representa un tabulador vertical
+
+``\x`` Se utiliza para representar caracteres **ASCII** o **ANSI** si conoce su código. De esta forma, si se busca el símbolo de derechos de autor y la fuente en la que se busca utiliza el conjunto de caracteres _Latin-1_ es posible encontrarlo utilizando **"\xA9"**.
+
+``\u`` Se utiliza para representar caracteres Unicode si se conoce su código. **"\u00A2"** representa el símbolo de centavos. No todos los motores de Expresiones Regulares soportan Unicode. El _.Net Framework_ lo hace, pero el _EditPad Pro_ no, por ejemplo.
+
+``\d`` Representa un dígito del **0** al **9**.
+
+``\w`` Representa cualquier carácter alfanumérico.
+
+``\s`` Representa un espacio en blanco.
+
+``\D`` Representa cualquier carácter que no sea un dígito del **0** al **9**.
+
+``\W`` Representa cualquier carácter no alfanumérico.
+
+``\S`` Representa cualquier carácter que no sea un espacio en blanco.
+
+``\A`` Representa el inicio de la cadena. No un carácter sino una posición.
+
+``\Z`` Representa el final de la cadena. No un carácter sino una posición.
+
+``\b`` Marca la posición de una palabra limitada por espacios en blanco, puntuación o el inicio/final de una cadena.
+
+``\B`` Marca la posición entre dos caracteres alfanuméricos o dos no-alfanuméricos.
+
+
 ---
 
 ## Enlaces de interés
