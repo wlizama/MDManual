@@ -239,7 +239,7 @@ En este caso, el camino a seguir se selecciona basándose en el valor de una exp
 
 ## POO
 
-## Diferencias entre una clase Abstracta vs Interfaces
+### Diferencias entre una clase Abstracta vs Interfaces
 
 **Clase Abstracta:**
 
@@ -262,3 +262,11 @@ En este caso, el camino a seguir se selecciona basándose en el valor de una exp
 + Se encuentra acciones como Drawable Dibujable, Runnable Ejecutable, Callable Llamable, Visualizable Visualizable.
 
 Una buena práctica es que el diseño de las aplicaciones siempre esté orientado a interfaces y no a la implementación. Crear buenas abstracciones. Encontrar el comportamiento común. Enfocarse en la declaración de los métodos
+
+### Componentes JDBC
+
++ **DriverManager**: Para cargar un driver (según el motor de BD).
++ **Connection**: Para establecer conexiones con las bases de datos.
++ **Statement**: Para ejecutar sentencias SQL y enviarlas a las BD.
++ **PreparedStatement**: Lo mismo que Statement sólo que permite recibir parámetros (clausula where).
++ **ResultSet**: Para almacenar el resultado de la consulta y almacenarlos en nuestros objetos (modelos).
