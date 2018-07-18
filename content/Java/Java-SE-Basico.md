@@ -216,6 +216,27 @@ En este caso, el camino a seguir se selecciona basándose en el valor de una exp
   }
 ```
 
+## Excepciones
+
+### Throwable
+
+**Error**: Causados por la máquina virtual de java (JVM).
+
+**Exception**: Causados por el desarrollador.
+
+**UNCHECKED**: Errores que no conocemos inicialmente. Errores de lógica. Por ejemplo, los ariméticos o agregar a un índice de un arreglo que no existe.
+
+**RuntimeException**: En el momento que la aplicación se está ejecutando.
+
+**CHECKED**: Errores más esperados.
+
+**SQLException**: Error en sintaxis de consultas de bases de datos.
+
+**IOException**: Error al leer un archivo o entrada/salida de datos.
+
+**FileNotFoundException**: Un archivo no fue encontrado.
+
+
 ## POO
 
 ## Diferencias entre una clase Abstracta vs Interfaces
