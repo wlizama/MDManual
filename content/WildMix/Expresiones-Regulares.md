@@ -122,7 +122,7 @@ También se utiliza en coincidencias previsivas.
 ``\B`` Marca la posición entre dos caracteres alfanuméricos o dos no-alfanuméricos.
 
 
-## Expresiones comunes
+## Expresiones Regulares Comunes
 
 **Validación de URL**
 

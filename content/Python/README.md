@@ -158,6 +158,91 @@ Nos permite encapsular un proyecto para poder instalar las versiones de los paqu
   pip install -r requirements.txt
 ```
 
+### PIP commands
+
+Busqueda limitada de paquetes:
+
+```sh
+  ➜  python-training $ pip search xls
+
+  xls (0.1.1)                                                     - XLS Parsing (from js-xls)
+  pyexcel-xls (0.5.7)                                             - A wrapper library to read, manipulate and write data in xls format. Itreads xlsx and xlsm format
+  xml-xls-loader (0.0.1)                                          - Module to load a MS xml xls into a pandas DataFrame
+  odoo8-addon-account-balance-reporting-xls (8.0.1.0.0.99.dev19)  - Account balance reporting to XLS
+  odoo8-addon-account-financial-report-webkit-xls (8.0.1.0.0)     - Add XLS export to accounting reports
+  metzoo-python-parser-xls-consumo-puan-plugin (0.0.2)            - Python Puan energy report XLS parser Pluigin for Metzoo
+  django-export-xls (0.1.1)                                       - A simple Django app to export data to an excel file.
+  django-trackmodels-xls-ritual (0.0.3)                           - XLSX report plugin for django-trackmodels-ritual
+  odoo8-addon-report-xls (8.0.0.6.1.99.dev12)                     - Excel report engine
+  pydap.responses.xls (0.1.2)                                     - XLS response for Pydap
+  icemac.ab.importxls (2.3.post1)                                 - Import XLS files into icemac.addressbook.
+  django-po2xls (0.4.0)                                           - Convert gettext .po files to .xls
+  FromXLS2CSV (1.4.2)                                             - Conversor de archivos XLS a CSV
+  gif2xls (0.2.2)                                                 - Convert GIF images into XLS files.
+  list2excel (0.5.6)                                              - Django XLS export made easy
+  make_excel (1.2.0.dev1)                                         - Create .xls file with Python dictionary
+  odoo8-addon-account-asset-management-xls (8.0.0.1.0.99.dev28)   - Assets Management Excel reporting
+  odoo8-addon-account-journal-report-xls (8.0.0.2.0.99.dev22)     - Financial Journal reports
+  odoo8-addon-mrp-bom-structure-xls (8.0.1.0.0)                   - Export BOM Structure to Excel
+  docraptor (1.2.0)                                               - A wrapper for the DocRaptor HTML to PDF/XLS service.
+  ...
+```
+
+Se puede instalar la última versión de un paquete especificando el nombre del paquete:
+
+```sh
+  ➜  python-training $ pip install novas
+
+  Collecting novas
+    Downloading novas-3.1.1.3.tar.gz (136kB)
+  Installing collected packages: novas
+    Running setup.py install 
+  for
+    novas
+  Successfully installed novas-3.1.1.3
+```
+
+También se puede instalar una verisón específica de un paquete ingresando el nombre del paquete seguido de ``==`` y el número de versión:
+
+```sh
+  ➜  python-training $ pip install requests==2.6.0
+
+  Collecting requests==2.6.0
+    Using cached requests-2.6.0-py2.py3-none-any.whl
+  Installing collected packages: requests
+  Successfully installed requests-2.6.0
+```
+
+Mostrar información de un paquete en particular:
+
+```sh
+  (venv) ➜  python-training $ pip show flask
+  
+  Name: Flask
+  Version: 0.12.2
+  Summary: A microframework based on Werkzeug, Jinja2 and good intentions
+  Home-page: http://github.com/pallets/flask/
+  Author: Armin Ronacher
+  Author-email: armin.ronacher@active-4.com
+  License: BSD
+  Location: /home/wilder/Compartido/python-training/servidor/venv/lib/python3.5/site-packages
+  Requires: Werkzeug, Jinja2, itsdangerous, click
+  Required-by: 
+```
+
+Mostrar todos los paquetes instalados en el entorno virtual:
+
+```sh
+  (venv) ➜  python-training $ pip list
+
+  beautifulsoup4 (4.5.3)
+  pip (9.0.1)
+  requests (2.13.0)
+  setuptools (38.5.2)
+  wheel (0.30.0)
+```
+
+
 ---
 
 ## Enlaces de interés
