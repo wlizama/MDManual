@@ -242,6 +242,14 @@ Mostrar todos los paquetes instalados en el entorno virtual:
   wheel (0.30.0)
 ```
 
+Colocar en lista requirements.txt los paquetes instalados
+
+```sh
+  (venv) ➜  python-training $ pip freeze > requirements.txt
+
+  Pillow==5.2.0
+  reportlab==3.5.1
+```
 
 ---
 
