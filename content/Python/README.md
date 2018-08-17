@@ -142,6 +142,38 @@ Ejemplo real:
   # Output: [(13, -3), (4, 1), (1, 2), (9, 10)]
 ```
 
+## Decoradores
+En palabras simples: son funciones que modifican la funcionalidad de otra función.
+
+Una función que recibe como parametro una función y retorna otra función.
+
+Ejemplo de decorador simple:
+```py
+  def fun_decorator(func):
+
+      def before_func():
+          print("Ejecutando acciones ANTES de llamar a función")
+
+      def after_func():
+          print("Ejecutando acciones DESPUES de llamar a función")
+
+      def wrapper():
+          before_func()
+          func()
+          after_func()
+
+      return wrapper
+
+
+  @fun_decorator
+  def suma_simple():
+      print("Suma simple: {}".format(15 + 30))
+
+
+  suma_simple()
+
+```
+
 ## Entorno virtual en Python
 
 En Python la comunidad comparte su código usando PyPi (_python package index_), es un repositorio para instalar módulos de la comunidad.
