@@ -312,4 +312,6 @@ Colocar en lista requirements.txt los paquetes instalados
 
 + [Paquetes Python](https://pypi.org/)
 
++ [Python Tips](http://book.pythontips.com/en/latest/)
+
 + [PEP Estilo de codificación](https://www.python.org/dev/peps/pep-0008/)
