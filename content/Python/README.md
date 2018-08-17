@@ -121,6 +121,27 @@ Dictionary comprehension y list comprehension nos permite escribir listas o dicc
 
 ```
 
+## Lambdas
+Lambdas son funciones de una línea. También se conocen como funciones anónimas en algunos otros idiomas. Es posible que desee utilizar lambdas cuando no desee utilizar una función dos veces en un programa. Son como las funciones normales e incluso se comportan como ellos.
+
+
+Simple suma: 
+```py
+  suma = lambda x, y: x + y
+
+  print(suma(3, 5))
+  # Output: 8
+```
+
+Ejemplo real:
+```py
+  a = [(1, 2), (4, 1), (9, 10), (13, -3)]
+  a.sort(key=lambda x: x[1])
+
+  print(a)
+  # Output: [(13, -3), (4, 1), (1, 2), (9, 10)]
+```
+
 ## Entorno virtual en Python
 
 En Python la comunidad comparte su código usando PyPi (_python package index_), es un repositorio para instalar módulos de la comunidad.
