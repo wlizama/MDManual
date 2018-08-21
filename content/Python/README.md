@@ -174,6 +174,44 @@ Ejemplo de decorador simple:
 
 ```
 
+## Generadores / yield statement
+``yield`` es muy diferente de un ``return``.
+
+Se usa para retornar "generators", objetos iteradores que se comportan de manera muy similar a una lista.
+
+Ejemplo:
+```py
+  def contador(max):
+      n = 0
+      while n < max:
+          yield n
+          n = n + 1
+
+  mycont = contador(5)
+
+  for i in mycont:
+      print(i)
+
+  # print(mycont)
+
+
+  0
+  1
+  2
+  3
+  4
+```
+
+El resultado es el mismo que si, en lugar de ``mycont = contador(5)`` hubiéramos instanciado una lista: ``mycont = [0,1,2,3,4]`` o ``mycont = range(0,5)``. Pero de hecho lo que ocurre es muy diferente.
+
+El objecto mycont es un iterador, cuando se lo recorre (en este caso en el for, o explicitamente con next()) va tirando secuencialmente sus elementos. La diferencia con una lista es que esos elementos no están almacenados, sino que se generan "on the fly". Esto es ventajoso en términos de memoria (puedo generar una "lista virtual" de mil millones de elementos, pero estos elementos no están alocados en memoria), es desventajoso en que, como en realidad es un iterador, la lista virtual no se puede recorrer más de una vez - y tampoco puedo hacer cosas como pedir el tamaño de la lista, reordernarla, etc.
+
+Lo que hace yield entonces es:
+
+La primera vez que corre (primera vez en la invoación a la función principal, contador en este caso), retorna inmediatamente - pero no retorna el elemento n sino un objeto (generador) que guarda el estado de la función, congelado justo antes del yield
+
+Cada vez que se ejecuta el next de este iterador, la función sale del estado congelado hasta que encuentra el próximo yield (incluido el primero!) - en cuyo caso retorna el elemento (ahora sí, el argumento del yield), y vuelve a congelarse - o bien llega al fin de la función, en cuyo caso el iterador devuelve "fin de iterador".
+
 ## Entorno virtual en Python
 
 En Python la comunidad comparte su código usando PyPi (_python package index_), es un repositorio para instalar módulos de la comunidad.
