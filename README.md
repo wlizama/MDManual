@@ -30,4 +30,6 @@ Manual desarrollado con **Markdown** que documenta las pasos a seguir, sugerenci
 
 + [Fundamentos de Arquitectura de Software](./content/Fundamentos-de-Arq-de-Software): Apuntes del Curso Fundamentos de Arquitectura de Software.
 
++ [Camino a la IA](./content/Camino-IA): Conceptos para entender e implementar IA.
+
 + [WildMix](./content/WildMix): Notas varias.
