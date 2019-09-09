@@ -4,30 +4,30 @@ Manual desarrollado con **Markdown** que documenta las pasos a seguir, sugerenci
 
 ## Indice de contenido
 
-+ [Algoritmos con C](https://github.com/wlizama/MDManual/tree/master/content/Algoritmos-con-C): Algoritmos y apuntes sobre el lenguaje de programación **C**.
++ [Algoritmos con C](./content/Algoritmos-con-C): Algoritmos y apuntes sobre el lenguaje de programación **C**.
 
-+ [Preprocesadores CSS](https://github.com/wlizama/MDManual/tree/master/content/Preprocesadores-CSS): Conceptos sobre los Preprocesadores CSS más conocidos.
++ [Preprocesadores CSS](./content/Preprocesadores-CSS): Conceptos sobre los Preprocesadores CSS más conocidos.
 
-+ [Laravel](https://github.com/wlizama/MDManual/tree/master/content/Laravel): Conceptos básicos sobre el Framework PHP **Laravel**.
++ [Laravel](./content/Laravel): Conceptos básicos sobre el Framework PHP **Laravel**.
 
-+ [POO](https://github.com/wlizama/MDManual/tree/master/content/POO): Definiciones sobre la **Programación Orientada a Objetos**.
++ [POO](./content/POO): Definiciones sobre la **Programación Orientada a Objetos**.
 
-+ [Python](https://github.com/wlizama/MDManual/tree/master/content/Python): Conociendo el Lenguaje de Programación **Python**.
++ [Python](./content/Python): Conociendo el Lenguaje de Programación **Python**.
 
-+ [Java](https://github.com/wlizama/MDManual/tree/master/content/Java): Conociendo el Lenguaje de Programación **Java**.
++ [Java](./content/Java): Conociendo el Lenguaje de Programación **Java**.
 
-+ [ReactJS](https://github.com/wlizama/MDManual/tree/master/content/ReactJS): Conceptos básicos sobre la libreria Javascript **ReactJS**.
++ [ReactJS](./content/ReactJS): Conceptos básicos sobre la libreria Javascript **ReactJS**.
 
-+ [Terminal](https://github.com/wlizama/MDManual/tree/master/content/Terminal): Introducción a la terminal.
++ [Terminal](./content/Terminal): Introducción a la terminal.
 
-+ [Django](https://github.com/wlizama/MDManual/tree/master/content/Django): Conceptos sobre el Framework Python **Django**.
++ [Django](./content/Django): Conceptos sobre el Framework Python **Django**.
 
-+ [Redes de Internet](https://github.com/wlizama/MDManual/tree/master/content/Redes-de-Internet): Apuntes del Curso de Redes de Internet.
++ [Redes de Internet](./content/Redes-de-Internet): Apuntes del Curso de Redes de Internet.
 
-+ [Introducción a la Seguridad Informática](https://github.com/wlizama/MDManual/tree/master/content/Seguridad-Informatica): Apuntes del Curso de Introducción a la Seguridad Informática.
++ [Introducción a la Seguridad Informática](./content/Seguridad-Informatica): Apuntes del Curso de Introducción a la Seguridad Informática.
 
-+ [Fundamentos de Ingeniería de Software](https://github.com/wlizama/MDManual/tree/master/content/Fundamentos-de-Ing-de-Softwate): Apuntes del Curso Fundamentos de Ingeniería de Software.
++ [Fundamentos de Ingeniería de Software](./content/Fundamentos-de-Ing-de-Softwate): Apuntes del Curso Fundamentos de Ingeniería de Software.
 
-+ [Fundamentos de Arquitectura de Software](https://github.com/wlizama/MDManual/tree/master/content/Fundamentos-de-Arq-de-Software): Apuntes del Curso Fundamentos de Arquitectura de Software.
++ [Fundamentos de Arquitectura de Software](./content/Fundamentos-de-Arq-de-Software): Apuntes del Curso Fundamentos de Arquitectura de Software.
 
-+ [WildMix](https://github.com/wlizama/MDManual/tree/master/content/WildMix): Notas varias.
++ [WildMix](./content/WildMix): Notas varias.
