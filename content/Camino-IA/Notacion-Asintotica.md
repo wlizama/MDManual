@@ -31,5 +31,9 @@ La notación asintotica nos permite representar la complejidad, y por ende la ef
 
 + **Exponencial**: Si su salida aumenta de acuerdo con una expresión exponencial. La manera de identificar funciones exponenciales es al encontrar aquellas en donde una constante está elevada a alguna expresión que involucra a _n_.
 
+
 ## Notación θ grande (Big-θ)
 
+
+## Notación O grande (Big-O)
+Un algoritmo dura como maximo _n_ tiempo en el peor de los casos, por ende puede llegar a ser mejor mientras el tiempo final sea lo mas menor posible a el _n_ tiempo máximo.
