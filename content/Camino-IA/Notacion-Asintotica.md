@@ -37,3 +37,6 @@ La notación asintotica nos permite representar la complejidad, y por ende la ef
 
 ## Notación O grande (Big-O)
 Un algoritmo dura como maximo _n_ tiempo en el peor de los casos, por ende puede llegar a ser mejor mientras el tiempo final sea lo mas menor posible a el _n_ tiempo máximo.
+
+
+## Notación Omega grande (Big-Ω)
