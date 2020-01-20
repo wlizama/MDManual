@@ -47,6 +47,19 @@ myReducer(0, { type: 'SUMAR' })  // -> state = 1
 myReducer(1, { type: 'RESTAR' }) // -> state = 0
 ```
 
+## STORE
+
+Un store contiene los 3 principios de Redux será el centro de la aplicación ya que con el se conoce el estado de la aplicación y nos permitirá ejecutar acciones para modificar el estado.
+
+Para poder crear un store necesitamos pasarle un **REDUCER** con la lógica de los cambios.
+
+El **STORE** tiene 3 métodos importantes:
+
+- _getState()_: Devuelve es state del actual **STORE**.
+
+- _dispatch()_: Dispara **ACTIONS** para cambiar el **STATE**.
+
+- _subcribe()_: Es un callback que será llamado con cada dispatch haciendo que tengamos disponible actualizado el método `getState()`
 
 **Funciones Puras**
 
