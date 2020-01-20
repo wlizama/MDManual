@@ -18,6 +18,8 @@ Manual desarrollado con **Markdown** que documenta las pasos a seguir, sugerenci
 
 + [ReactJS](./content/ReactJS): Conceptos básicos sobre la libreria Javascript **ReactJS**.
 
++ [ReactJS con Redux](./content/ReactJS-Redux): Contenido relacionado a la comprensión de **Redux** con **ReactJS**.
+
 + [Terminal](./content/Terminal): Introducción a la terminal.
 
 + [Django](./content/Django): Conceptos sobre el Framework Python **Django**.
