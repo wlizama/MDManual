@@ -10,7 +10,7 @@ Redux se basa en 3 principios:
 
 **1- Una sola fuente de datos:** El estado de la información se almacena en un árbol de objetos dentro de una única **STORE**, esto facilita la depuración y el desarrollo rápido.
 
-**2- El estado es solo de lectura:** Solo podemos cambiar los estados por medio de **ACTIONS**.
+**2- El estado es solo de lectura:** La única forma de cambiar el estado es enviando una señal al **STORE**. Esta señal es un (**ACTION**).
 
 **3- Las mutaciones se escriben como funciones puras:** El responsable de especificar de como cambiará el estado por medio de las acciones son los **REDUCCERS**se son acciones puras que reciben el estado anterior y la acción a realizar devolviendo un nuevo estado, en lugar de modificarla.
 
@@ -22,9 +22,12 @@ Es la mínima representación de los datos en nuestra aplicación.
 
 Los estados de una aplicación solo cambiarán si se dispara un **ACTION**. Una acción es un objeto plano que describe un cambio, cada **ACTION** debe tener siempre una propiedad diferente de `undefined` y en cada aplicación debe existir la definición de sus propios **ACTIONS** para los cambios de estado en sus datos.
 
+Redux no entiende otros tipos de acción que un objeto simple. Si desea mover la lógica asincrónica de React a Redux y poder devolver funciones en lugar de objetos simples, debe usar un middleware personalizado. Con [Redux Thunk](https://github.com/reduxjs/redux-thunk) se puede devolver funciones de creadores de acciones, no solo objetos. Puede hacer un trabajo asincrónico dentro de sus acciones y disparar otras acciones en respuesta a llamadas AJAX..
+
 ## REDUCERS
 
 Es una función pura que tiene toda la aplicación Redux y devuelve un nuevo estado de los datos pasando como párametros el estado (**STATE**) previo y la acción (**ACTION**) a ejecutar. Si se pasa una acción que no esta definida devolveremos el mismo estado que recibió.
+Los reductores deben mantenerse delgados y limpios. Un reductor no es un buen lugar para la lógica asincrónica.
 
 ```js
 // Ejemplo de Reducer
@@ -59,7 +62,7 @@ El **STORE** tiene 3 métodos importantes:
 
 - _dispatch()_: Dispara **ACTIONS** para cambiar el **STATE**.
 
-- _subcribe()_: Es un callback que será llamado con cada dispatch haciendo que tengamos disponible actualizado el método `getState()`
+- _subscribe()_: Es un callback que será llamado con cada dispatch haciendo que tengamos disponible actualizado el método `getState()`, escucha los cambios de cada estado.
 
 **Funciones Puras**
 
@@ -92,4 +95,6 @@ function doblarLista(lst) {
 
 ## Más info
 
-- [Redux Documentación español](https://es.redux.js.org/)
+- [Redux Documentación (español)](https://es.redux.js.org/)
+
+- [Blog Redux app de ejemplo (inglés)](https://www.valentinog.com/blog/redux/)
