@@ -114,3 +114,9 @@ En redux saga podría alojar en un solo archivo que contiene:
 - [Redux Documentación (español)](https://es.redux.js.org/)
 
 - [Blog Redux app de ejemplo (inglés)](https://www.valentinog.com/blog/redux/)
+
+- [Redux Toolkit Documentation](https://redux-toolkit.js.org/introduction/quick-start)
+
+- [Redux Saga](https://github.com/redux-saga/redux-saga)
+
+- [Ducks Modular Redux 🦆](https://github.com/erikras/ducks-modular-redux)
