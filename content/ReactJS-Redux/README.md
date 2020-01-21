@@ -93,6 +93,22 @@ function doblarLista(lst) {
 }
 ```
 
+## Redux Saga
+
+[Redux Saga](https://github.com/redux-saga/redux-saga) es un middleware de Redux para gestionar los efectos secundarios. Con redux saga puede tener un hilo separado en su aplicación para tratar acciones impuras: llamadas a la API, acceso al almacenamiento y más.
+
+Es diferente de una acción asíncrona en términos de sintaxis y organización del código. Con [Redux Thunk](https://github.com/reduxjs/redux-thunk) puedes poner una llamada API directamente dentro de un creador de acciones, mientras que en redux saga puedes tener una separación clara entre lógica síncrona y asíncrona. Y esa lógica estará totalmente separada de su código Redux.
+
+
+En redux saga podría alojar en un solo archivo que contiene:
+
+- a **worker function**
+
+- a **watcher function**
+
+**Watcher function** es una [función generadora](http://es6-features.org/#GeneratorFunctionIteratorProtocol) que observa cada acción que nos interesa. En respuesta a esa acción, el **watcher function** llamará a un **worker function**, que es otra función generadora para realizar la llamada API real.
+
+
 ## Más info
 
 - [Redux Documentación (español)](https://es.redux.js.org/)
