@@ -16,3 +16,10 @@ docker run -p 6379:6379 --rm --name redis redis
 
 docker run -it --link redis:redis --rm redis redis-cli -h redis -p 6379
 ```
+
+
+## Referencias
+
+- [Redis webside](https://redis.io/)
+
+- [Redis rip tutorial](https://riptutorial.com/es/redis)
