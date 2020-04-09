@@ -36,4 +36,6 @@ Manual desarrollado con **Markdown** que documenta las pasos a seguir, sugerenci
 
 + [Docker](./content/Docker): Fundamentos de Docker.
 
++ [Redis](./content/Redis): Fundamentos de Redis.
+
 + [WildMix](./content/WildMix): Notas varias.
